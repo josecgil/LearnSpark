@@ -1,2 +1,1 @@
-# LearnSpark
-Samples to learn Spark
+Samples to learn The [Spark](http://sparkjava.com/) framework
