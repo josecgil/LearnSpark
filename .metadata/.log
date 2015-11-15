@@ -4032,3 +4032,309 @@ Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/ja
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 18:51:56.443
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 18:59:57.503
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 18:59:57.552
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 18:59:57.961
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:00:25.274
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:00:25.276
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 19:00:25.331
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:01:13.624
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:01:13.646
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 19:01:13.706
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:01:16.891
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:01:16.892
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 19:01:16.947
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:01:49.328
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:01:49.329
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:02:21.340
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:02:21.341
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:02:22.380
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 19:02:22.381
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:02:25.266
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:02:25.278
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:04:44.586
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:04:44.587
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:05:08.709
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:05:08.711
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:11:13.899
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:11:13.910
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:14:48.933
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:14:48.938
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:16:54.050
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:16:54.051
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:16:55.122
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:16:55.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:16:55.307
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/App.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/Controller.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:06.051
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:06.052
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:17:06.122
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:07.195
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:07.196
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:17:07.266
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:11.726
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:11.730
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:17:11.784
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:22.958
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:17:22.959
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:18:37.772
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:18:37.826
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:19:25.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:19:25.804
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:19:51.535
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:19:51.536
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:19:51.590
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/Controller.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:20:53.340
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:20:53.341
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:21:05.553
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:21:05.554
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:21:05.625
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/Controller.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:25:14.866
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:25:14.877
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:25:14.954
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:26:03.224
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:26:03.225
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:26:03.288
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:32:03.850
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:32:03.851
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:32:09.135
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:32:09.137
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:32:13.023
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:32:13.024
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:32:13.097
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/App.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/Controller.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:34:20.985
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:34:20.987
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:34:21.053
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/App.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:35:13.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:35:13.929
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:35:13.998
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:36:24.148
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:36:24.149
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:36:24.206
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:28.552
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:28.595
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:39:28.647
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:34.285
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:34.286
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:39:34.342
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:40.363
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:40.365
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:39:40.422
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:52.299
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:39:52.301
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:39:52.380
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:42:20.809
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:42:20.853
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:42:21.303
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:45:33.823
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:45:33.839
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:45:34.022
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:46:02.613
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:46:02.614
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:46:02.675
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/Controller.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:46:11.360
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:46:11.361
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:46:11.416
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class]

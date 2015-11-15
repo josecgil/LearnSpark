@@ -1,0 +1,29 @@
+package controllers;
+
+import java.util.HashMap;
+
+import spark.ModelAndView;
+import spark.TemplateEngine;
+import spark.template.freemarker.FreeMarkerEngine;
+
+public class Controller {
+
+	public Controller(FreeMarkerEngine freeMarkerEngine, String pathToView) {
+		this.freeMarkerEngine=freeMarkerEngine;
+		this.pathToView=pathToView;
+	}
+
+	private FreeMarkerEngine freeMarkerEngine;
+	private String pathToView;
+
+	protected ModelAndView renderView(String viewName, String modelName, Object model) {
+		HashMap<String, Object> root=new HashMap<String, Object>(); 
+		root.put(modelName, model);
+		return new ModelAndView(root, this.pathToView+viewName);
+	}
+
+	protected TemplateEngine getTemplateEngine() {
+		return freeMarkerEngine;
+	}
+
+}

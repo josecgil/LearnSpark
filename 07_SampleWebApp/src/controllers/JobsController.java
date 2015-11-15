@@ -1,45 +1,47 @@
 package controllers;
-import spark.template.freemarker.FreeMarkerEngine;
+import spark.TemplateEngine;
 import static spark.Spark.*;
-
-import spark.ModelAndView;
-import java.util.HashMap;
 
 import infrastructure.JobRepository;
 import models.CategoryCollection;
 import models.Job;
 
-public class JobsController {
-	private static final String PATH_TO_VIEW = "views/jobs/";
-	
-	private static FreeMarkerEngine freeMarkerEngine;
+public class JobsController extends Controller {
+	private final static String PATH_TO_VIEW = "views/jobs/";
 	
 	private static JobRepository jobRepository=new JobRepository();
-	
-	public static void init(FreeMarkerEngine freeMarkerEngine) {
-		JobsController.freeMarkerEngine=freeMarkerEngine;
-		Index();	
-		Detail();
+
+	public JobsController(TemplateEngine templateEngine) {
+		super(templateEngine, PATH_TO_VIEW);
+		//The order is important for routing purposes
+		index();	
+		create();
+		detail();
 	}
 
-	private static void Index() {
+	private void index() {
 		get("/jobs", (request, response) -> {
 			CategoryCollection categories=jobRepository.findAll();
-			HashMap<String, Object> root=new HashMap<String, Object>(); 
-			root.put("categories", categories);
-            return new ModelAndView(root, PATH_TO_VIEW+"index.ftl");
-        }, freeMarkerEngine);
+			return renderView("index.ftl", "categories", categories);
+        }, getTemplateEngine());
 	}
 
-	private static void Detail() {
+
+	private void create() {
+		get("/jobs/create", (request, response) -> {
+			return renderView("create.ftl");		
+        }, getTemplateEngine());
+	}
+
+	private void detail() {
 		get("/jobs/:id", (request, response) -> {
 			int jobId=Integer.parseInt(request.params(":id"));
 			Job job=jobRepository.findById(jobId);
-			HashMap<String, Object> root=new HashMap<String, Object>(); 
-			root.put("job", job);
-            return new ModelAndView(root, PATH_TO_VIEW+"detail.ftl");
-        }, freeMarkerEngine);
+			return renderView("detail.ftl", "job", job);		
+        }, getTemplateEngine());
 	}
+	
+
 
 	
 }

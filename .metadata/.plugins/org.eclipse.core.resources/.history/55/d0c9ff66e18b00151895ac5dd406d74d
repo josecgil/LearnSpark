@@ -1,0 +1,20 @@
+package controllers;
+import static spark.Spark.*;
+
+public class DefaultController extends Controller {
+	private final static String PATH_TO_VIEW = "views/";
+
+	public DefaultController() {
+		super(null, PATH_TO_VIEW);
+		Index();	
+	}
+
+	private void Index() {
+		get("/", (request, response) -> {
+			response.status(301);
+			response.redirect("/jobs");
+			return "Redirecting to /jobs ...";
+		});
+	}
+
+}

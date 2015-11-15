@@ -1,0 +1,45 @@
+package controllers;
+import spark.template.freemarker.FreeMarkerEngine;
+import static spark.Spark.*;
+
+import infrastructure.JobRepository;
+import models.CategoryCollection;
+import models.Job;
+
+public class JobsController extends Controller {
+	static final String PATH_TO_VIEW = "views/jobs/";
+	
+	private static JobRepository jobRepository=new JobRepository();
+
+	public static void init(FreeMarkerEngine freeMarkerEngine) {
+		JobsController.freeMarkerEngine=freeMarkerEngine;
+		Index();	
+		Detail();
+		Create();
+	}
+
+	private static void Index() {
+		get("/jobs", (request, response) -> {
+			CategoryCollection categories=jobRepository.findAll();
+			return renderView("index.ftl", "categories", categories);
+        }, freeMarkerEngine);
+	}
+
+	private static void Detail() {
+		get("/jobs/:id", (request, response) -> {
+			int jobId=Integer.parseInt(request.params(":id"));
+			Job job=jobRepository.findById(jobId);
+			return renderView("detail.ftl", "job", job);		
+        }, freeMarkerEngine);
+	}
+	
+	private static void Create() {
+		get("/jobs/create", (request, response) -> {
+			return "create";
+			//return renderView("create.ftl", null, null);		
+        }, freeMarkerEngine);
+	}
+
+
+	
+}
