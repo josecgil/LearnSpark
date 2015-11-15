@@ -3,6 +3,8 @@ package models;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import models.Job;
+
 public class CategoryCollection {
 	public static final Category PROGRAMMING = new Category("Programming");
 	public static final Category DESIGN = new Category("Design");
@@ -39,6 +41,15 @@ public class CategoryCollection {
 			category.sortJobs();
 		}
 		
+	}
+
+	public Job findJobById(int id) {
+		for(Category category:categories)
+		{
+			Job job=category.findJobById(id);
+			if (job!=null) return job;
+		}
+		return null;
 	}
 
 }

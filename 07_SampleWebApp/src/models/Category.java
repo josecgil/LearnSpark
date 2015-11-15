@@ -42,5 +42,12 @@ public class Category implements Comparable<Category> {
 	public int size() {
 		return jobs.size();
 	}
+
+	public Job findJobById(int id) {
+		for(Job job:jobs) {
+			if (job.has(id)) return job;
+		}
+		return null;
+	}
 	
 }

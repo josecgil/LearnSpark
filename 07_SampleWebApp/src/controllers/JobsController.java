@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 import infrastructure.JobRepository;
 import models.CategoryCollection;
+import models.Job;
 
 public class JobsController {
 	private static final String PATH_TO_VIEW = "views/jobs/";
@@ -18,6 +19,7 @@ public class JobsController {
 	public static void init(FreeMarkerEngine freeMarkerEngine) {
 		JobsController.freeMarkerEngine=freeMarkerEngine;
 		Index();	
+		Detail();
 	}
 
 	private static void Index() {
@@ -29,4 +31,15 @@ public class JobsController {
         }, freeMarkerEngine);
 	}
 
+	private static void Detail() {
+		get("/jobs/:id", (request, response) -> {
+			int jobId=Integer.parseInt(request.params(":id"));
+			Job job=jobRepository.findById(jobId);
+			HashMap<String, Object> root=new HashMap<String, Object>(); 
+			root.put("job", job);
+            return new ModelAndView(root, PATH_TO_VIEW+"detail.ftl");
+        }, freeMarkerEngine);
+	}
+
+	
 }

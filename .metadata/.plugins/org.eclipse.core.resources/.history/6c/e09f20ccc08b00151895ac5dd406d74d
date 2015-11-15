@@ -1,0 +1,5 @@
+<#import "/views/Layout.ftl" as layout />
+
+<@layout.master title="Job Listing">
+#{job.id}
+</@layout.master>

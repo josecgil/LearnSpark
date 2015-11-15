@@ -1998,3 +1998,115 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (1) references 
 2015-11-15 18:30:13,588 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/03_StaticResources/src/main/resources
 2015-11-15 18:30:13,589 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-11-15 18:30:13,602 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/03_StaticResources/src/test/resources
+2015-11-15 18:32:29,430 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:32:29,431 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:32:29,432 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:32:29,432 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:35:24,954 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:35:24,954 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:35:24,955 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:35:24,955 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:38:31,114 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:38:31,129 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:38:31,130 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:38:31,131 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:38:54,364 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:38:54,364 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:38:54,365 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:38:54,365 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:39:06,049 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:39:06,050 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:39:06,051 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:39:06,051 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:40:00,909 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:40:00,910 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:40:00,911 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:40:00,913 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:40:32,380 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:40:32,381 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:40:32,382 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:40:32,383 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:40:52,181 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:40:52,181 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:40:52,182 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:40:52,182 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:41:03,286 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:41:03,287 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:41:03,288 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:41:03,288 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:42:05,370 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:42:05,371 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:42:05,372 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:42:05,372 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:43:19,444 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:43:19,444 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:43:19,445 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:43:19,455 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:44:08,583 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:44:08,584 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:44:08,585 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:44:08,625 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:45:15,557 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:45:15,593 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:45:15,594 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:45:15,594 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:46:28,202 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:46:28,203 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:46:28,204 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:46:28,204 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:47:09,040 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:47:09,041 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:47:09,042 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:47:09,042 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:48:02,190 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:48:02,191 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:48:02,191 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:48:02,192 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:48:04,919 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:48:04,920 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:48:04,921 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:48:04,921 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:48:52,774 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:48:52,775 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:48:52,775 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:48:52,776 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:49:29,734 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:49:29,734 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:49:29,735 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:49:29,736 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:50:07,249 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:07,250 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:50:07,251 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:07,251 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:50:24,390 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:24,391 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:50:24,392 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:24,392 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:50:47,976 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:47,977 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:50:47,978 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:47,978 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:50:53,546 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:53,547 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:50:53,547 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:50:53,548 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:51:25,734 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:25,735 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:51:25,736 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:25,736 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:51:30,735 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:30,736 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:51:30,736 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:30,737 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:51:33,937 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:33,938 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:51:33,938 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:33,939 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:51:50,087 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:50,088 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:51:50,089 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:50,089 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources
+2015-11-15 18:51:56,442 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:56,442 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/main/resources
+2015-11-15 18:51:56,443 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-15 18:51:56,444 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/src/test/resources

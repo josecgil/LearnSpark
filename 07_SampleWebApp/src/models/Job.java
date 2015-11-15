@@ -122,4 +122,9 @@ public class Job implements Comparable<Job>{
 		return this.categoryName==category.getName();
 	}
 
+	public boolean has(int id) {
+		return this.id==id;
+	}
+
+
 }

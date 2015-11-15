@@ -1,5 +1,6 @@
 package infrastructure;
 
+import models.Job;
 import models.CategoryCollection;
 
 public class JobRepository {
@@ -9,6 +10,10 @@ public class JobRepository {
 	public CategoryCollection findAll() {
 		
 		return categories;
+	}
+
+	public Job findById(int id) {
+		return categories.findJobById(id);
 	}
 
 }
