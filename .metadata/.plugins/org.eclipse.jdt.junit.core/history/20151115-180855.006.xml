@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestJob" project="07_SampleWebApp" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="models.TestJob" time="0.206">
+    <testcase name="itMustBeNewIfIsFromToday" classname="models.TestJob" time="0.2"/>
+    <testcase name="itMustBeNewIfIsFromMoreThan15DaysAgo" classname="models.TestJob" time="0.002"/>
+    <testcase name="itMustBeNewIfIsFrom15DaysAgo" classname="models.TestJob" time="0.001"/>
+    <testcase name="itMustBeNewIfIsFromMoreThanAMonth" classname="models.TestJob" time="0.003"/>
+  </testsuite>
+</testrun>

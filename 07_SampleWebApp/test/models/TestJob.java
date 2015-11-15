@@ -11,7 +11,6 @@ public class TestJob {
 	@Test
 	public void itMustBeNewIfIsFromToday() {
 		Job job=new Job();
-		job.setDateTime(new DateTime());
 		Assert.assertTrue(job.isNew());
 	}
 
