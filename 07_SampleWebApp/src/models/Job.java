@@ -6,12 +6,6 @@ import org.joda.time.Days;
 
 public class Job implements Comparable<Job>{
 	private static int _lastId=0;
-
-	public static final String CATEGORY_OTHER = "Other";
-	public static final String CATEGORY_EXECUTIVE = "Executive";
-	public static final String CATEGORY_PROGRAMMING = "Programming";
-	public static final String CATEGORY_DESIGN = "Design";
-
 	
 	public Job() {
 		_lastId++;
@@ -119,7 +113,7 @@ public class Job implements Comparable<Job>{
 	}
 
 	public boolean has(Category category) {
-		return this.categoryName==category.getName();
+		return this.categoryName.equals(category.getName());
 	}
 
 	public boolean has(int id) {

@@ -4,6 +4,7 @@ import java.util.Random;
 
 import org.joda.time.DateTime;
 
+import models.Category;
 import models.CategoryCollection;
 import models.Job;
 
@@ -96,31 +97,31 @@ public class RandomJobCreator {
 	private static String[] randomTitleAndCategory() {
 		switch (generateRandomInt(1, 13)) {
 			case 1:
-				return new String[]{"Front-end Expert (jQuery, Angular)", Job.CATEGORY_DESIGN};
+				return new String[]{"Front-end Expert (jQuery, Angular)", CategoryCollection.DESIGN.toString()};
 			case 2:
-				return new String[]{"UI Designer", Job.CATEGORY_DESIGN};
+				return new String[]{"UI Designer", CategoryCollection.DESIGN.toString()};
 			case 3:
-				return new String[]{"CSS Ninja", Job.CATEGORY_DESIGN};
+				return new String[]{"CSS Ninja", CategoryCollection.DESIGN.toString()};
 			case 4:
-				return new String[]{"UX Expert", Job.CATEGORY_DESIGN};
+				return new String[]{"UX Expert", CategoryCollection.DESIGN.toString()};
 			case 5:
-				return new String[]{"LAMP developer", Job.CATEGORY_PROGRAMMING};
+				return new String[]{"LAMP developer", CategoryCollection.PROGRAMMING.toString()};
 			case 6:
-				return new String[]{"Java wizard", Job.CATEGORY_PROGRAMMING};
+				return new String[]{"Java wizard", CategoryCollection.PROGRAMMING.toString()};
 			case 7:
-				return new String[]{"Spark Framework Expert", Job.CATEGORY_PROGRAMMING};
+				return new String[]{"Spark Framework Expert", CategoryCollection.PROGRAMMING.toString()};
 			case 8:
-				return new String[]{".Net Developer", Job.CATEGORY_PROGRAMMING};
+				return new String[]{".Net Developer", CategoryCollection.PROGRAMMING.toString()};
 			case 9:
-				return new String[]{"CTO", Job.CATEGORY_EXECUTIVE};
+				return new String[]{"CTO", CategoryCollection.EXECUTIVE.toString()};
 			case 10:
-				return new String[]{"Director", Job.CATEGORY_EXECUTIVE};
+				return new String[]{"Director", CategoryCollection.EXECUTIVE.toString()};
 			case 11:
-				return new String[]{"CEO", Job.CATEGORY_EXECUTIVE};
+				return new String[]{"CEO", CategoryCollection.EXECUTIVE.toString()};
 			case 12:
-				return new String[]{"Musician", Job.CATEGORY_OTHER};
+				return new String[]{"Musician", CategoryCollection.OTHER.toString()};
 		}
-		return new String[]{"Tree hugger", Job.CATEGORY_OTHER};
+		return new String[]{"Tree hugger", CategoryCollection.OTHER.toString()};
 	}
 
 }

@@ -2,7 +2,11 @@ package controllers;
 import spark.TemplateEngine;
 import static spark.Spark.*;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 import infrastructure.JobRepository;
+import models.Category;
 import models.CategoryCollection;
 import models.Job;
 
@@ -29,8 +33,25 @@ public class JobsController extends Controller {
 
 	private void create() {
 		get("/jobs/create", (request, response) -> {
-			return renderView("create.ftl");		
+			CategoryCollection categories=jobRepository.findAllCategories();
+			return renderView("create.ftl", "categories", categories);		
         }, getTemplateEngine());
+		
+		post("/jobs/create", (request, response) -> {
+			
+			Job newJob=new Job();
+			newJob.setTitle(request.queryParams("title"));
+			newJob.setDescription(request.queryParams("description"));
+			newJob.setCategoryName(request.queryParams("category"));
+			newJob.setCompany(request.queryParams("company"));
+			newJob.setLocation(request.queryParams("location"));
+			jobRepository.save(newJob);
+			
+			//Post/Redirect/Get Pattern
+			response.status(301);
+			response.redirect("/jobs/"+newJob.getId());
+			return "";
+        });
 	}
 
 	private void detail() {

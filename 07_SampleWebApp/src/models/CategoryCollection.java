@@ -20,14 +20,15 @@ public class CategoryCollection {
 		categories.add(OTHER);
 	}
 	
-	public void addJob(Job randomJob) {
+	public void addJob(Job job) {
 		for(Category category:categories)
 		{
-			if (randomJob.has(category)) {
-				category.add(randomJob);
-				break;
+			if (job.has(category)) {
+				category.add(job);
+				return;
 			}
 		}
+		OTHER.add(job);
 	}
 	
 	public ArrayList<Category> toList() {

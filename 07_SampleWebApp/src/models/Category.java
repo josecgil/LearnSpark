@@ -50,4 +50,9 @@ public class Category implements Comparable<Category> {
 		return null;
 	}
 	
+	@Override
+	public String toString() {
+		return this.name;
+	}
+	
 }

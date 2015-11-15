@@ -16,4 +16,12 @@ public class JobRepository {
 		return categories.findJobById(id);
 	}
 
+	public void save(Job newJob) {
+		categories.addJob(newJob);
+	}
+
+	public CategoryCollection findAllCategories() {
+		return new CategoryCollection();
+	}
+
 }

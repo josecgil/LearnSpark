@@ -4338,3 +4338,249 @@ Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/ja
 
 !ENTRY org.infinitest.eclipse 1 0 2015-11-15 22:46:11.416
 !MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/DefaultController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:48:47.326
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:48:47.336
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:50:23.762
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:50:23.763
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:51:15.012
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:51:15.013
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:52:27.457
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:52:27.460
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:54:09.495
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:54:09.539
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:56:00.538
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:56:00.539
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:57:40.079
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:57:40.080
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:58:34.742
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 22:58:34.744
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:03.383
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:03.384
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:08.791
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:08.792
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:16.540
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:16.542
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:27.607
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:00:27.609
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:03:02.622
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:03:02.623
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:03:08.455
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:03:08.457
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:04:26.017
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:04:26.097
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 23:04:26.272
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/infrastructure/JobRepository.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/models/CategoryCollection.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:05:39.081
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:05:39.082
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:12:21.399
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:12:21.400
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 23:12:21.657
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:17:21.390
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:17:21.392
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:58:25.401
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:58:25.472
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 23:58:25.525
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/models/Category.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 23:58:25.527
+!MESSAGE 07_SampleWebApp Running tests: [models.TestJob]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 23:58:25.528
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_15707=1, APP_ICON_17045=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes:/Users/user/.m2/repository/com/sparkjava/spark-core/2.3/spark-core-2.3.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/user/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-server/9.3.2.v20150730/jetty-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-http/9.3.2.v20150730/jetty-http-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-util/9.3.2.v20150730/jetty-util-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-io/9.3.2.v20150730/jetty-io-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.2.v20150730/jetty-webapp-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.2.v20150730/jetty-xml-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.2.v20150730/jetty-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-security/9.3.2.v20150730/jetty-security-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.3.2.v20150730/websocket-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.3.2.v20150730/websocket-common-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.3.2.v20150730/websocket-client-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.3.2.v20150730/websocket-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.3.2.v20150730/websocket-api-9.3.2.v20150730.jar:/Users/user/.m2/repository/com/sparkjava/spark-template-freemarker/2.3/spark-template-freemarker-2.3.jar:/Users/user/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar:/Users/user/.m2/repository/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1195891954.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-QH7Bkr/Listeners, DISPLAY=/tmp/launch-iEsv5D/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_17045=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-eAEewH/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_15707=../Resources/Eclipse.icns, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 60170]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-15 23:58:26.882
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:58:32.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-15 23:58:32.542
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:03:31.926
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:03:31.933
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:03:32.005
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:06:15.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:06:15.692
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:06:49.239
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:06:49.240
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:08:33.085
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:08:33.086
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:08:33.136
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/infrastructure/JobRepository.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:09:39.665
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:09:39.666
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:09:39.773
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/controllers/JobsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:14:02.342
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:14:02.345
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:14:02.409
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/models/CategoryCollection.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:14:28.484
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:14:28.485
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:14:28.544
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/models/CategoryCollection.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:16:47.570
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:16:47.581
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:19:15.481
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:19:15.509
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:19:15.714
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/models/Job.class, /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/infrastructure/RandomJobCreator.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:19:15.716
+!MESSAGE 07_SampleWebApp Running tests: [models.TestJob]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:19:15.718
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_15707=1, APP_ICON_17045=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes:/Users/user/.m2/repository/com/sparkjava/spark-core/2.3/spark-core-2.3.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/user/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-server/9.3.2.v20150730/jetty-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-http/9.3.2.v20150730/jetty-http-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-util/9.3.2.v20150730/jetty-util-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-io/9.3.2.v20150730/jetty-io-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.2.v20150730/jetty-webapp-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.2.v20150730/jetty-xml-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.2.v20150730/jetty-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-security/9.3.2.v20150730/jetty-security-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.3.2.v20150730/websocket-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.3.2.v20150730/websocket-common-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.3.2.v20150730/websocket-client-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.3.2.v20150730/websocket-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.3.2.v20150730/websocket-api-9.3.2.v20150730.jar:/Users/user/.m2/repository/com/sparkjava/spark-template-freemarker/2.3/spark-template-freemarker-2.3.jar:/Users/user/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar:/Users/user/.m2/repository/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1195891954.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-QH7Bkr/Listeners, DISPLAY=/tmp/launch-iEsv5D/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_17045=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-eAEewH/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_15707=../Resources/Eclipse.icns, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 60233]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:19:16.831
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:24:12.511
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 00:24:12.512
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:24:12.602
+!MESSAGE 07_SampleWebApp Files changed: [/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes/models/Job.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:24:12.604
+!MESSAGE 07_SampleWebApp Running tests: [models.TestJob]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:24:12.605
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_15707=1, APP_ICON_17045=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/LearnSpark/07_SampleWebApp/target/classes:/Users/user/.m2/repository/com/sparkjava/spark-core/2.3/spark-core-2.3.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/user/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-server/9.3.2.v20150730/jetty-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-http/9.3.2.v20150730/jetty-http-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-util/9.3.2.v20150730/jetty-util-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-io/9.3.2.v20150730/jetty-io-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.2.v20150730/jetty-webapp-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.2.v20150730/jetty-xml-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.2.v20150730/jetty-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-security/9.3.2.v20150730/jetty-security-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.3.2.v20150730/websocket-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.3.2.v20150730/websocket-common-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.3.2.v20150730/websocket-client-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.3.2.v20150730/websocket-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.3.2.v20150730/websocket-api-9.3.2.v20150730.jar:/Users/user/.m2/repository/com/sparkjava/spark-template-freemarker/2.3/spark-template-freemarker-2.3.jar:/Users/user/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar:/Users/user/.m2/repository/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1195891954.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-QH7Bkr/Listeners, DISPLAY=/tmp/launch-iEsv5D/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_17045=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-eAEewH/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_15707=../Resources/Eclipse.icns, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 60243]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 00:24:13.570
+!MESSAGE Update complete. Status PASSING
