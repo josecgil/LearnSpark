@@ -1,0 +1,22 @@
+import spark.template.freemarker.FreeMarkerEngine;
+import static spark.Spark.*;
+import spark.ModelAndView;
+
+
+public class JobsController {
+	private static final String PATH_TO_VIEW = "views/jobs/";
+	
+	private static FreeMarkerEngine freeMarkerEngine;
+	
+	public static void init(FreeMarkerEngine freeMarkerEngine) {
+		JobsController.freeMarkerEngine=freeMarkerEngine;
+		Index();	
+	}
+
+	private static void Index() {
+		get("/", (request, response) -> {
+            return new ModelAndView(null, PATH_TO_VIEW+"index.ftl");
+        }, freeMarkerEngine);
+	}
+
+}

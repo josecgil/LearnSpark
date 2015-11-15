@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />	
+		<link rel="stylesheet" href="css/master.css" type="text/css" />
+		<title>Listado de ofertas de trabajo - Pro Job Seeker</title>		
+	</head>
+	<body>
+		<div id="page">
+			<div id="header" >
+				<h1><a href="index.html">Pro Job Seeker</a></h1>
+				<p>Industry leaders <strong>since 2006</strong>. The best companies use our system to find the <strong>best and brightest<strong> professionals.</p>
+			</div>
+			<div id="content">
+			
+				<div class="add-job">
+					<a href="addjob.html">
+					  Advertise a Job for only 400&euro;
+					</a>
+				</div>
+
+				<div class="jobs">
+					<h2>
+						<a href="category.html">Programming</a> Jobs
+						<span>LATEST POST ABOUT 20 HOURS AGO</span>
+					</h2>
+					<ul>
+						<li>
+							<span class="new">Nuevo</span>
+						  <a href="onejob.html">
+							<span class="city">Madrid</span>
+							<span class="title">Desarrollador ruby on rails</span> en
+							<span class="company">Rails Jungle S.L.</span>
+							<span class="date">6 Nov</span>
+						  </a>
+						</li>
+						<li>
+							<span class="new">Nuevo</span>
+						  <a href="onejob.html">
+							<span class="city">Valencia</span>
+							<span class="title">Desarrollador .net</span> en
+							<span class="company">Netologies Inc</span>
+							<span class="date">4 Nov</span>
+						  </a>
+						</li>
+						<li>
+							<span class="new">Nuevo</span>
+						  <a href="onejob.html">
+							<span class="city">Sevilla</span>
+							<span class="title">Desarrollador front-end experto en jQuery</span> en
+							<span class="company">RatCo Solutions</span>
+							<span class="date">1 Nov</span>
+						  </a>
+						</li>
+						<li>
+						  <a href="onejob.html">
+								<span class="city">Barcelona</span>
+								<span class="title">Programador LAMP</span> en
+								<span class="company">freesoft S.A</span>
+								<span class="date">15 Oct</span>
+							 </a>
+						</li>
+						<li>
+						  <a href="onejob.html">
+							<span class="city">San Sebasti&aacute;n</span>
+							<span class="title">Experto en Struts</span> en
+							<span class="company">tuxprog-es.com</span>
+							<span class="date">9 Oct</span>
+						  </a>
+						</li>
+					</ul>
+				</div><!--end div class="jobs" -->
+
+				<div class="jobs">
+					<h2>
+						Ofertas de <a href="category.html">Dise&ntilde;o</a>
+						<span>&Uacute;ltima oferta publicada hace 2 d&iacute;as</span>
+					</h2>
+					<ul>
+						<li>
+							<span class="new">Nuevo</span>
+						  <a href="onejob.html">
+							<span class="city">Madrid</span>
+							<span class="title">Dise&ntilde;ador/Maquetador freelance</span> en
+							<span class="company">Funk S.A.</span>
+							<span class="date">4 Nov</span>
+						  </a>
+						</li>
+						<li>
+							<span class="new">Nuevo</span>
+						  <a href="onejob.html">
+							<span class="city">Valencia</span>
+							<span class="title">Dise&ntilde;ador, experto en IA</span> en
+							<span class="company">Cartoon-new.net</span>
+							<span class="date">3 Nov</span>
+						  </a>
+						</li>
+						<li>
+							<span class="new">Nuevo</span>
+						  <a href="onejob.html">
+								<span class="city">Barcelona</span>
+								<span class="title">Maquetador html/css</span> en
+								<span class="company">lukiluk.com</span>
+								<span class="date">1 Nov</span>
+							 </a>
+						</li>
+						<li>
+						  <a href="onejob.html">
+							<span class="city">Bilbao</span>
+							<span class="title">Dise&ntilde;ador de interacci&oacute;n</span> en
+							<span class="company">Experts &amp; Co</span>
+							<span class="date">14 Oct</span>
+						  </a>
+						</li>
+						<li>
+						  <a href="onejob.html">
+							<span class="city">Sevilla</span>
+							<span class="title">Experto en UX</span> en
+							<span class="company">bolijfer.es</span>
+							<span class="date">10 Oct</span>
+						  </a>
+						</li>
+					</ul>
+				</div><!--end div class="jobs" -->
+
+				<div style="clear:both" ></div>
+			</div> <!--end div id="content" -->
+			
+			<div id="footer">
+				<p>&copy; 2011 Job Listing Company International</p>
+			</div>
+			
+		</div>
+	</body>
+</html>

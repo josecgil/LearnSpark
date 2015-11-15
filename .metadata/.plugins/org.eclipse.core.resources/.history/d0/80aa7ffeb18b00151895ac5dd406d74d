@@ -1,0 +1,27 @@
+package infrastructure;
+
+import java.util.ArrayList;
+
+import models.Category;
+import models.CategoryCollection;
+import models.Job;
+import models.JobCollection;
+
+public class JobRepository {
+
+	private static CategoryCollection categories=RandomJobCreator.create(20);
+	
+	public ArrayList<Category> findAll() {
+		jobs.Sort();
+		return jobs;
+	}
+
+	public String[] findAllCategories() {
+		return new String[] {
+				Job.CATEGORY_PROGRAMMING,
+				Job.CATEGORY_DESIGN,
+				Job.CATEGORY_EXECUTIVE,
+				Job.CATEGORY_OTHER};
+	}
+
+}

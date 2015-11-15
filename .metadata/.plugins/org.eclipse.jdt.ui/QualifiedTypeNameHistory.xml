@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="spark.template.freemarker.FreeMarkerEngine"/>
+<fullyQualifiedTypeName name="spark.ModelAndView"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="freemarker.template.Configuration"/>
+<fullyQualifiedTypeName name="spark.ResponseTransformer"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="spark.Spark"/>
+</qualifiedTypeNameHistroy>

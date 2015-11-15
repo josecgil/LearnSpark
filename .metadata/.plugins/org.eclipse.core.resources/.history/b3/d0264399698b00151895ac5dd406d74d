@@ -1,0 +1,75 @@
+package infrastructure;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Random;
+
+import models.Job;
+
+public class RandomJobCreator {
+	
+	public static ArrayList<Job> create(int count) {
+		ArrayList<Job> randomJobs=new ArrayList<Job>();
+		for (int i = 0; i < count; i++) {
+			randomJobs.add(createRandomJob());
+		}
+		return randomJobs;
+	}
+
+	private static Job createRandomJob() {
+		Job job=new Job();
+		job.setTitle(randomTitle());
+		job.setDate(randomDate());
+		job.setCompany(randomCompany());
+		job.setDescription(randomDescription());
+		job.setLocation(randomLocation());
+		job.setCategory(randomCategory());
+		return job;
+	}
+
+	private static Random random=new Random();
+	private static int generateRandomInt(int min, int max) {
+		return random.nextInt((max - min) + 1) + min;		
+	}
+	
+	private static String randomLocation() {
+		switch (generateRandomInt(1, 7)) {
+			case 1:
+				return "Barcelona";
+			case 2:
+				return "Berlin";
+			case 3:
+				return "NY city";
+			case 4:
+				return "Chicago";
+			case 5:
+				return "San Francisco";
+			case 6:
+				return "Moscow";
+			case 7:
+				return "London";
+		}
+	}
+
+	private static String randomCategory() {
+		return "random Category";
+	}
+
+	private static String randomDescription() {
+		return "random Description";
+	}
+
+	private static Date randomDate() {
+		return new Date();
+	}
+
+	private static String randomCompany() {
+		return "random Company";
+	}
+
+	private static String randomTitle() {
+		return "random Title";
+	}
+
+}

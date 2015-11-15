@@ -1,0 +1,28 @@
+package infrastructure;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+import models.Job;
+
+public class JobRepository {
+
+	private static ArrayList<Job> jobs=RandomJobCreator.create(20);
+	
+	public ArrayList<Job> findAll() {
+		return jobs;
+	}
+
+	
+	private void AddJob(ArrayList<Job> jobs) {
+		Job job = new Job();
+		job.setTitle("Title");
+		job.setDescription("Description");
+		job.setCompany("Company");
+		job.setLocation("Location");
+		job.setDate(new Date());
+		job.setCategory("Category");
+		jobs.add(job);
+	}
+
+}

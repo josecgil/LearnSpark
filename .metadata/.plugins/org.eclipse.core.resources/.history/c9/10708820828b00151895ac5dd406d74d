@@ -1,0 +1,107 @@
+package models;
+
+import java.text.SimpleDateFormat;
+import java.time.ZonedDateTime;
+import java.util.Calendar;
+import java.util.Date;
+
+import org.joda.time.DateTime;
+import org.joda.time.Days;
+import org.joda.time.Period;
+
+public class Job {
+	private static int _lastId=0;
+
+	public static final String CATEGORY_OTHER = "Other";
+	public static final String CATEGORY_EXECUTIVE = "Executive";
+	public static final String CATEGORY_PROGRAMMING = "Programming";
+	public static final String CATEGORY_DESIGN = "Design";
+
+	
+	public Job() {
+		_lastId++;
+		id=_lastId;
+		date=new DateTime();
+	}
+	
+	private int id;
+	private String title;
+	private DateTime date;
+	private String company;
+	private String location;
+	private String description;
+	
+	private String category;
+	
+	public int getId() {
+		return id;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+	public DateTime getDate() {
+		return date;
+	}
+	
+	private static final int DAYS_TO_BE_NEW = 15;
+
+	public boolean isNew() {
+		DateTime now=new DateTime();
+		Days daysBetweenDateAndNow= Days.daysBetween(date, now);
+		int days=daysBetweenDateAndNow.getDays();
+		return days<=DAYS_TO_BE_NEW;
+	}
+	
+	private String firstLetterToUpperCase(String str) {
+		return str.substring(0,1).toUpperCase()+str.substring(1);
+	}
+	
+	public String getHumanDate() {
+		SimpleDateFormat simpleDateFormat=new SimpleDateFormat("MMM dd");
+		String dateAsString=simpleDateFormat.format(this.date.toDate());
+		return firstLetterToUpperCase(dateAsString);
+	}
+	
+	public void setDate(DateTime date) {
+		this.date = date;
+	}
+
+	public String getCompany() {
+		return company;
+	}
+	
+	public void setCompany(String company) {
+		this.company = company;
+	}
+	
+	public String getLocation() {
+		return location;
+	}
+	
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	
+	public String getDescription() {
+		return description;
+	}
+	
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	public String getCategory() {
+		return category;
+	}
+	
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+}

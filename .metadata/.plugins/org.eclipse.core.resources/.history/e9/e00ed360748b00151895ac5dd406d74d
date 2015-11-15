@@ -1,0 +1,31 @@
+package models;
+
+
+import java.util.Calendar;
+import java.util.Date;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import models.Job;
+
+public class TestJob {
+
+	@Test
+	public void itMustBeNewIfIsFromToday() {
+		Job job=new Job();
+		job.setDate(new Date());
+		Assert.assertTrue(job.isNew());
+	}
+
+	@Test
+	public void itMustBeNewIfIsFrom15DaysAgo() {
+		Calendar calendar=Calendar.getInstance();
+		calendar.set(Calendar.DATE, -10);
+		Job job=new Job();
+		job.setDate(calendar.getTime());
+		Assert.assertTrue(job.isNew());
+	}
+
+	
+}

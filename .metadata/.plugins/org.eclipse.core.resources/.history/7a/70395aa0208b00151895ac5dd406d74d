@@ -1,0 +1,29 @@
+package repositories;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+import models.Job;
+
+public class JobRepository {
+
+	public ArrayList<Job> findAll() {
+		ArrayList<Job> jobs=new ArrayList<Job>();
+		for(int i=0; i<10; i++) {
+			AddJob(jobs);
+		}
+		return jobs;
+	}
+
+	private void AddJob(ArrayList<Job> jobs) {
+		Job job = new Job();
+		job.setTitle("Title");
+		job.setDescription("Description");
+		job.setCompany("company");
+		job.setLocation("location");
+		job.setDate(new Date());
+		job.setCategory("category");
+		jobs.add(job);
+	}
+
+}

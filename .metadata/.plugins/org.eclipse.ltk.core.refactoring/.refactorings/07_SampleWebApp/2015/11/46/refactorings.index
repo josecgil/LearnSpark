@@ -1,0 +1,61 @@
+1447421892101	Rename resource 'hello.ftl'
+1447422039889	Delete element
+1447422048175	Delete element
+1447422052370	Delete element
+1447422057625	Delete elements
+1447422099856	Move files
+1447422129241	Copy package
+1447422136198	Copy package
+1447422145723	Delete elements
+1447422171038	Delete element
+1447422178687	Copy package
+1447422184622	Delete element
+1447422207757	Rename package 'resources.templates'
+1447429419963	Delete element
+1447457047162	Extract constant 'RESOURCES_PATH'
+1447457129606	Extract method 'createTemplateEngine'
+1447538980889	Extract method 'Index'
+1447539059161	Rename type 'JobController'
+1447539099104	Move file
+1447539182326	Rename field 'PATH'
+1447539502971	Move compilation unit
+1447539521238	Rename package 'Controllers'
+1447539971132	Extract local variable 'job'
+1447540666799	Extract method 'AddJob'
+1447570836035	Rename package 'repositories'
+1447571535259	Rename type 'RandomJobsCreator'
+1447572812416	Rename local variable 'c'
+1447573581254	Move package
+1447573714391	Delete element
+1447573773083	Delete element
+1447573776635	Delete element
+1447573844955	Delete element
+1447573876765	Move compilation unit
+1447573886982	Rename package 'test'
+1447575312005	Move compilation unit
+1447575992336	Move package
+1447576169199	Move compilation unit
+1447576178675	Delete element
+1447576195474	Move compilation unit
+1447576375550	Rename local variable 'dateFrom30DaysAgo'
+1447576411140	Extract constant 'DAYS_15'
+1447576435576	Rename field 'DAYS_15'
+1447580212190	Extract constant 'DESIGN'
+1447580223687	Extract constant 'PROGRAMMING'
+1447580232777	Extract constant 'EXECUTIVE'
+1447580242302	Extract constant 'OTHER'
+1447580262244	Rename field 'OTHER'
+1447582637786	Rename field 'date'
+1447582652913	Rename field 'dateTime'
+1447582663526	Rename field 'date'
+1447602084638	Delete element
+1447602544998	Rename field 'CATEGORY_OTHER'
+1447602549781	Rename field 'CATEGORY_EXECUTIVE'
+1447602555921	Rename field 'CATEGORY_PROGRAMMING'
+1447602561601	Rename field 'CATEGORY_DESIGN'
+1447602663368	Rename method 'setCategory'
+1447602687485	Rename field 'category'
+1447603077557	Rename local variable 'randomJob'
+1447604632236	Extract method 'getLastestJob'
+1447604948801	Rename method 'getHumanDate'
+1447606386313	Copy compilation unit

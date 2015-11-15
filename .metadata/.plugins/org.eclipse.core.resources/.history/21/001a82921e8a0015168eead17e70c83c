@@ -1,0 +1,28 @@
+<#macro master title="Publicar oferta de trabajo - Pro Job Seeker">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+		"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+		<head>
+			<meta http-equiv="Content-type" content="text/html; charset=utf-8" />	
+			<link rel="stylesheet" href="css/master.css" type="text/css" />
+			<title>${title}</title>		
+		</head>
+		<body>
+			<div id="page">
+				<div id="header" >
+					<h1><a href="/">Pro Job Seeker</a></h1>
+					<p>L&iacute;deres de la industria <strong>desde 2006</strong>. Las mejores compa&ntilde;&iacute;as usan nuestro sistema para encontrar a los <strong>mejores y m&aacute;s brillantes</strong> profesionales.</p>
+				</div>
+				<div id="content">
+			       [#nested /]
+					<div style="clear:both" ></div>
+				</div> <!--end div id="content" -->
+				
+				<div id="footer">
+					<p>&copy; 2011 Job Listing Company International</p>
+				</div>
+				
+			</div>
+		</body>
+	</html>
+</#macro>

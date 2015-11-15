@@ -1,0 +1,21 @@
+import static spark.Spark.*;
+import java.util.*;
+
+import freemarker.template.Configuration;
+import spark.template.freemarker.FreeMarkerEngine;
+import spark.ModelAndView;
+
+public class App {
+	public static void main(String[] args) {
+        FreeMarkerEngine freeMarkerEngine = new FreeMarkerEngine();
+        Configuration configuration = new Configuration();
+        configuration.setClassForTemplateLoading(App.class, "/resources");
+		freeMarkerEngine.setConfiguration(configuration);
+
+		staticFileLocation("/resources");
+		
+		get("/", (request, response) -> {
+            return new ModelAndView(null, "views/index.ftl");
+        }, freeMarkerEngine);	
+	}
+}

@@ -1,0 +1,33 @@
+<#import "/views/Layout.ftl" as layout />
+
+<@layout.master title="Job Listing">
+<div class="add-job">
+	<a href="addjob.html">
+	  Post a Job, 90 days for only 400&euro;
+	</a>
+</div>
+<#list categories as category>
+<div class="jobs">
+	<h2>
+		<a href="category.html">${category}</a> Jobs
+		<span>Latest post about 20 hours ago</span>
+	</h2>
+	<ul>
+	<#assign jobsInCategory=allJobs.getJobsInCategory(category)>	
+	<#list jobsInCategory.toList() as job>
+		<li>
+			<#if job.isNew()>
+				<span class="new">New</span>
+			</#if>
+		  	<a href="onejob.html">
+				<span class="city">${job.getLocation()}</span>
+				<span class="title">${job.getTitle()}</span> in <span class="company">${job.getCompany()}</span>
+				<span class="date">${job.getHumanDate()}</span>
+		  	</a>
+		</li>
+	</#list>
+	</ul>
+</div><!--end div class="jobs" -->
+</#list>
+</@layout.master>
+

@@ -1,0 +1,50 @@
+package infrastructure;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import models.Job;
+
+public class RandomJobsCreator {
+	
+	public List<Job> create(count) {
+		List<Job> randomJobs=new ArrayList<Job>();
+		for (int i = 0; i < count; i++) {
+			randomJobs.add(createRandomJob());
+		}
+		return randomJobs;
+	}
+
+	private Job createRandomJob() {
+		Job job=new Job();
+		job.setTitle(randomTitle());
+		job.setDate(randomDate());
+		job.setCompany(randomCompany());
+		job.setDescription(randomDescription());
+		job.setLocation(randomDescription());
+		job.setCategory(randomCategory());
+		return job;
+	}
+
+	private String randomCategory() {
+		return "random Category";
+	}
+
+	private String randomDescription() {
+		return "random Description";
+	}
+
+	private Date randomDate() {
+		return new Date();
+	}
+
+	private String randomCompany() {
+		return "random Company";
+	}
+
+	private String randomTitle() {
+		return "random Title";
+	}
+
+}
