@@ -16,6 +16,8 @@ public class ClaimsController {
 	
 	private static ClaimsRepository claimsRepository=new ClaimsRepository();
 
+
+
 	public ClaimsController(TemplateEngine templateEngine, JsonTransformer jsonTransformer) {
 		this.templateEngine=templateEngine;
 		this.jsonTransformer=jsonTransformer;
@@ -26,10 +28,7 @@ public class ClaimsController {
 
 	private void index() {
 		get("/claims", (request, response) -> {
-            Map<String, Object> attributes = new HashMap<>();
-            attributes.put("numberOfClaimsSelected", claimsRepository.numberOfRandomSelections());
-            attributes.put("randomClaims", claimsRepository.selectRandom(3));
-            return new ModelAndView(attributes, "views/claims/index.ftl");
+            return new ModelAndView(null, "views/claims/index.ftl");
         }, templateEngine);
 	}
 

@@ -16,6 +16,8 @@ public class ClaimsController {
 	
 	private static ClaimsRepository claimsRepository=new ClaimsRepository();
 
+
+
 	public ClaimsController(TemplateEngine templateEngine, JsonTransformer jsonTransformer) {
 		this.templateEngine=templateEngine;
 		this.jsonTransformer=jsonTransformer;

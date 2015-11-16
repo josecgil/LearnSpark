@@ -6627,3 +6627,36 @@ Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/ja
 
 !ENTRY org.infinitest.eclipse 1 0 2015-11-16 23:35:21.724
 !MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/ClaimsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:53:11.793
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:53:11.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 23:53:11.917
+!MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/ClaimsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:55:11.817
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:55:11.819
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:56:04.199
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:56:04.200
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 23:56:04.308
+!MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/ClaimsController.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:59:15.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 23:59:15.848
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-16 23:59:15.926
+!MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/ClaimsController.class]
