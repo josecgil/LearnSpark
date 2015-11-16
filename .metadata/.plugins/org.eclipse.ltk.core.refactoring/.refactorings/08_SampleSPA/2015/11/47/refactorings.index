@@ -5,3 +5,12 @@
 1447696351558	Delete element
 1447697185284	Extract method 'create'
 1447697199300	Extract method 'count'
+1447708787942	Move file
+1447708797284	Rename resource 'claims.ftl'
+1447709036527	Extract constant 'RESOURCES'
+1447709046339	Rename field 'RESOURCES'
+1447709886797	Delete element
+1447710755242	Extract local variable 'countParam'
+1447711320940	Rename method 'create'
+1447712496780	Extract local variable 'len'
+1447712517269	Rename local variable 'len'

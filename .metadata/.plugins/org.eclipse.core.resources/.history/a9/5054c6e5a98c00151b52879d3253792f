@@ -1,0 +1,29 @@
+import static spark.Spark.*;
+
+import freemarker.template.Configuration;
+import spark.TemplateEngine;
+import spark.template.freemarker.FreeMarkerEngine;
+
+public class App {
+
+	private static final String RESOURCES_PATH = "/resources";
+
+	public static void main(String[] args) {
+        TemplateEngine templateEngine = createTemplateEngine();
+        JsonTransformer json2Transformer = new JsonTransformer();
+
+        staticFileLocation(RESOURCES_PATH);
+
+		ClaimsController claimsController=new ClaimsController(templateEngine, json2Transformer);
+	}
+
+	private static FreeMarkerEngine createTemplateEngine() {
+		FreeMarkerEngine freeMarkerEngine = new FreeMarkerEngine();
+        Configuration configuration = new Configuration();
+        configuration.setClassForTemplateLoading(App.class, RESOURCES_PATH);
+		freeMarkerEngine.setConfiguration(configuration);
+		return freeMarkerEngine;
+	}
+
+	
+}

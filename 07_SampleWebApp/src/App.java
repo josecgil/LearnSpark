@@ -1,7 +1,6 @@
 import static spark.Spark.*;
 
 import controllers.CategoriesController;
-import controllers.DefaultController;
 import controllers.JobsController;
 import freemarker.template.Configuration;
 import spark.TemplateEngine;
@@ -14,10 +13,17 @@ public class App {
         TemplateEngine templateEngine = createTemplateEngine();
 
 		staticFileLocation(RESOURCES_PATH);
-		
-		new DefaultController();
+		setDefaultRoute("/jobs");
 		new JobsController(templateEngine);
 		new CategoriesController(templateEngine);
+	}
+
+	private static void setDefaultRoute(String defaultRoute) {
+		get("/", (request, response) -> {
+			response.status(301);
+			response.redirect(defaultRoute);
+			return "Redirecting to "+defaultRoute+" ...";
+		});
 	}
 
 	private static FreeMarkerEngine createTemplateEngine() {

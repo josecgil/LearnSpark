@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class ClaimsRepository {
+
+	private ArrayList<String> claims=new ArrayList<String>();
+	public ClaimsRepository() {
+		claims.add("Heuristic");
+		claims.add("Balanced");
+		claims.add("Focused");
+		claims.add("COLLABORATIVE");
+		claims.add("CUTTING-EDGE");
+		claims.add("QUALITY-FOCUSED");
+		claims.add("FULL-RANGE");
+		claims.add("FLEXIBILITY");
+		claims.add("DYNAMIC");
+		claims.add("INTERACTIVE");
+		claims.add("EPIC");
+		claims.add("EFFICIENCY");
+	}
+	
+	public ArrayList<String> selectRandom(int count) {
+		ArrayList<String> selectedClaims=new ArrayList<String>();
+		
+		return claims;
+	}
+
+}

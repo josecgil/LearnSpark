@@ -1,6 +1,7 @@
 $(function () {
 
     var doingAnimation=false;
+    var numberOfClaimBoxes=$(".claim-box-wrap").length;
 
     $(".js-generate-claim").on("click", function (event) {
         event.preventDefault();
@@ -11,9 +12,8 @@ $(function () {
                 $(claimBox).addClass("is-flipped");
             }, 150*index);
         });
-        var claimCount=$(".claim-box-wrap").length;
         setTimeout(function() {
-        		$.getJSON("/claims/create", function(claims) {
+        		$.getJSON("/claims/select/"+numberOfClaimBoxes, function(claims) {
         			$(".claim-box-wrap").each(function(index, claimBox) {
         				$(claimBox).find("h3").html(claims[index]);
         			});        			
@@ -23,8 +23,6 @@ $(function () {
             		});
                 doingAnimation=false;
         		});
-        		
-        	
-        }, 250*claimCount);
+        }, 250*numberOfClaimBoxes);
     });
 });

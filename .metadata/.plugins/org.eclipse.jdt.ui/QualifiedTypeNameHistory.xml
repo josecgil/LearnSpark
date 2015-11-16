@@ -32,5 +32,7 @@
 <fullyQualifiedTypeName name="models.Category"/>
 <fullyQualifiedTypeName name="controllers.CategoriesController"/>
 <fullyQualifiedTypeName name="spark.template.freemarker.FreeMarkerEngine"/>
+<fullyQualifiedTypeName name="JsonTransformer"/>
+<fullyQualifiedTypeName name="controllers.ClaimsController"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

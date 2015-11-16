@@ -7,8 +7,10 @@
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
 		<item value="true" key="renameSetter"/>
 		<item value="false" key="updateTextualMatches"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="true" key="renameGetter"/>
 	</section>
 	<section name="SelfEncapsulateFieldWizard">

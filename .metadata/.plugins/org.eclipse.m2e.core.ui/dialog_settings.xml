@@ -56,6 +56,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="08_SampleSPA"/>
 			<item value="ProJobSeeker"/>
 			<item value="HelloWorld"/>
 			<item value="06_JSON"/>
@@ -64,6 +65,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="08_SampleSPA"/>
 			<item value="ProJobSeeker"/>
 			<item value="HelloWorld"/>
 			<item value="06_JSON"/>

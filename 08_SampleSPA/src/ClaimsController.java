@@ -3,30 +3,46 @@
 import static spark.Spark.get;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import spark.ModelAndView;
+import spark.TemplateEngine;
 
 public class ClaimsController {
 	
 	private JsonTransformer jsonTransformer;
+	private TemplateEngine templateEngine;
 	
-	public ClaimsController(JsonTransformer jsonTransformer) {
+	private static ClaimsRepository claimsRepository=new ClaimsRepository();
+
+
+
+	public ClaimsController(TemplateEngine templateEngine, JsonTransformer jsonTransformer) {
+		this.templateEngine=templateEngine;
 		this.jsonTransformer=jsonTransformer;
-        create();
+        index();
+        select();
         count();
 	}
 
-	private void create() {
-		get("/claims/create", "application/json", (request, response) -> {
-            ArrayList<String> claims = new ArrayList<String>();
-            claims.add("BALANCED");
-            claims.add("SYNERGIES");
-            claims.add("MODULAR");
-			return claims;
+	private void index() {
+		get("/claims", (request, response) -> {
+            return new ModelAndView(null, "views/claims/index.ftl");
+        }, templateEngine);
+	}
+
+	private void select() {
+		get("/claims/select/:count", "application/json", (request, response) -> {
+			String countParam = request.params(":count");
+			int count=Integer.parseInt(countParam);
+			return claimsRepository.selectRandom(count);
         }, jsonTransformer);
 	}
 
 	private void count() {
 		get("/claims/count", "application/json", (request, response) -> {
-			return 6;
+			return claimsRepository.numberOfRandomSelections();
         }, jsonTransformer);
 	}
 
