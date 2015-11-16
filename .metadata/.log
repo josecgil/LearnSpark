@@ -6071,3 +6071,21 @@ java.lang.NullPointerException
 
 !ENTRY org.infinitest.eclipse 1 0 2015-11-16 18:52:31.987
 !MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/ClaimsController.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/JsonTransformer.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/App.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 18:57:57.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 18:57:57.605
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 18:58:55.464
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 18:58:55.498
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 18:59:28.780
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-16 18:59:28.833
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

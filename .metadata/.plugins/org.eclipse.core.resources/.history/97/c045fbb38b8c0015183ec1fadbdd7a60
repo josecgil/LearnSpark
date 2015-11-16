@@ -14,8 +14,8 @@ $(function () {
         var claimCount=$(".claim-box-wrap").length;
         setTimeout(function() {
         		$.getJSON("/claims/create", function(claims) {
-        			$(".claim-box-wrap").each(function(index, claimBox) {
-        				$(claimBox).find("h3").html(claims[index]);
+        			$(".claim-box-wrap").each(function(index, claimBox)) {
+        				$(claimBox).html(claims[index]);
         			});        			
                 $(".claim-box-wrap").removeClass("is-flipped");
                 $(".claimcount").html("1000");
