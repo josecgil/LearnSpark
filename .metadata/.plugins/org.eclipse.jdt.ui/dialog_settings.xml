@@ -52,9 +52,9 @@
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="529" key="DIALOG_WIDTH"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
-		<item value="639" key="DIALOG_HEIGHT"/>
-		<item value="576" key="DIALOG_X_ORIGIN"/>
-		<item value="86" key="DIALOG_Y_ORIGIN"/>
+		<item value="574" key="DIALOG_HEIGHT"/>
+		<item value="271" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item value="600" key="width"/>

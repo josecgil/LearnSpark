@@ -4,7 +4,8 @@ public class App {
 
     public static void main(String args[]) {
         get("/hello", "application/json", (request, response) -> {
-            return new Client("Connor, Sara");
+            Client client = new Client("Connor, Sara");
+			return client;
         }, new JsonTransformer());
     }
 

@@ -1,0 +1,19 @@
+import static spark.Spark.get;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import spark.ModelAndView;
+
+public class JobsController {
+	
+	public JobsController() {
+		get("/jobs", (request, response) -> {
+            Map<String, Object> attributes = new HashMap<>();
+            //attributes.put("message", "Hello World!");
+
+            return new ModelAndView(attributes, "views/jobs/index.ftl");
+        }, freeMarkerEngine);			
+	}
+
+}

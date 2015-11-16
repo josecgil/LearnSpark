@@ -13,7 +13,7 @@ public class JobRepository {
 	}
 	
 	public CategoryCollection findAll() {
-		
+		categories.sortJobs();
 		return categories;
 	}
 

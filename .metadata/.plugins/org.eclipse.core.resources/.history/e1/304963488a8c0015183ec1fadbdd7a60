@@ -1,0 +1,15 @@
+package controllers;
+
+import static spark.Spark.get;
+
+public class ClaimsController {
+
+	public ClaimsController(Json2Transformer jsonTransformer) {
+        get("/claims/create", "application/json", (request, response) -> {
+            Client client = new Client("Connor, Sara");
+			return client;
+        }, jsonTransformer);
+
+	}
+
+}

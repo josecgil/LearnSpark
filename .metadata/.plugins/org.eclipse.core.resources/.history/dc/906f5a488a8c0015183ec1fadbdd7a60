@@ -1,0 +1,12 @@
+import static spark.Spark.*;
+import controllers.ClaimsController;
+
+public class App {
+
+	public static void main(String[] args) {
+        staticFileLocation("/resources");
+        Json2Transformer json2Transformer = new Json2Transformer();
+		ClaimsController claimsController=new ClaimsController(json2Transformer);
+	}
+
+}
