@@ -1,4 +1,5 @@
-/models/
-/infrastructure/
+/META-INF/
 /resources/
 /controllers/
+/infrastructure/
+/models/

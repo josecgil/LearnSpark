@@ -1,4 +1,6 @@
 import static spark.Spark.*;
+
+import controllers.CategoriesController;
 import controllers.DefaultController;
 import controllers.JobsController;
 import freemarker.template.Configuration;
@@ -15,6 +17,7 @@ public class App {
 		
 		new DefaultController();
 		new JobsController(templateEngine);
+		new CategoriesController(templateEngine);
 	}
 
 	private static FreeMarkerEngine createTemplateEngine() {

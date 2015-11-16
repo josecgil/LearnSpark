@@ -113,7 +113,7 @@ public class Job implements Comparable<Job>{
 	}
 
 	public boolean has(Category category) {
-		return this.categoryName.equals(category.getName());
+		return this.categoryName.equalsIgnoreCase(category.getName());
 	}
 
 	public boolean has(int id) {

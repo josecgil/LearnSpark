@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="spark.template.freemarker.FreeMarkerEngine"/>
 <fullyQualifiedTypeName name="spark.ModelAndView"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="freemarker.template.Configuration"/>
 <fullyQualifiedTypeName name="spark.ResponseTransformer"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.text.DateFormatSymbols"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.time.ZonedDateTime"/>
+<fullyQualifiedTypeName name="org.joda.time.Period"/>
+<fullyQualifiedTypeName name="org.joda.time.Days"/>
+<fullyQualifiedTypeName name="models.JobCollection"/>
+<fullyQualifiedTypeName name="infrastructure.JobRepository"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="org.joda.time.DateTime"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.servlet.ServletHandler.Default404Servlet"/>
+<fullyQualifiedTypeName name="controllers.DefaultController"/>
 <fullyQualifiedTypeName name="spark.Spark"/>
+<fullyQualifiedTypeName name="models.Job"/>
+<fullyQualifiedTypeName name="spark.TemplateEngine"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="models.CategoryCollection"/>
+<fullyQualifiedTypeName name="models.Category"/>
 </qualifiedTypeNameHistroy>

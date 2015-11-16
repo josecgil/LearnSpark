@@ -18,7 +18,7 @@ public class JobCollection {
 	public JobCollection getJobsInCategory(String category) {
 		JobCollection jobsInCategory=new JobCollection();
 		for(Job job: jobs) {
-			if (job.getCategoryName()==category) {
+			if (job.getCategoryName().equalsIgnoreCase(category)) {
 				jobsInCategory.add(job);
 			}
 		}

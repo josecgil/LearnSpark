@@ -1,0 +1,2 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Little changes in Eclipse Workspace</message>\n<message>Added The Create Job page</message>\n<message>Refactor of Controllers</message>\n<message>Added Detail of one job</message>\n<message>Fixed some strange error with the 03 Project hat was preventing&\#x0A;infinitest to run properly</message>\n<message>Added initial version of Sample Web App</message>\n</messages>
+eclipse.preferences.version=1

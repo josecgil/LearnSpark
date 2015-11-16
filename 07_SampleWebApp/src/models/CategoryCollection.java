@@ -53,4 +53,13 @@ public class CategoryCollection {
 		return null;
 	}
 
+	public Category findCategoryByName(String name) {
+		for(Category category:categories) {
+			if (category.getName().equalsIgnoreCase(name)) {
+				return category;
+			}
+		}
+		return null;
+	}
+
 }

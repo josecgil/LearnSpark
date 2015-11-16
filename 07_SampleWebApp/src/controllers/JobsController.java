@@ -13,7 +13,7 @@ import models.Job;
 public class JobsController extends Controller {
 	private final static String PATH_TO_VIEW = "views/jobs/";
 	
-	private static JobRepository jobRepository=new JobRepository();
+	private static JobRepository jobRepository=JobRepository.getInstance();
 
 	public JobsController(TemplateEngine templateEngine) {
 		super(templateEngine, PATH_TO_VIEW);
@@ -38,7 +38,6 @@ public class JobsController extends Controller {
         }, getTemplateEngine());
 		
 		post("/jobs/create", (request, response) -> {
-			
 			Job newJob=new Job();
 			newJob.setTitle(request.queryParams("title"));
 			newJob.setDescription(request.queryParams("description"));
@@ -61,8 +60,5 @@ public class JobsController extends Controller {
 			return renderView("detail.ftl", "job", job);		
         }, getTemplateEngine());
 	}
-	
-
-
-	
+		
 }

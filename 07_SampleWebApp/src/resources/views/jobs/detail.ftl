@@ -3,7 +3,7 @@
 <@layout.master title="Job Listing">
 	<div class="nav">
 		<#assign categoryName="${job.getCategoryName()}">
-		<p class="nav-next"><a href="/category/${categoryName}">See more ${categoryName} jobs &raquo;</a></p>	
+		<p class="nav-next"><a href="/categories/${categoryName}">See more ${categoryName} jobs &raquo;</a></p>	
 		<p class="nav-prev"><a href="/">&laquo; Back to all offers</a></p>
 	</div>
 
