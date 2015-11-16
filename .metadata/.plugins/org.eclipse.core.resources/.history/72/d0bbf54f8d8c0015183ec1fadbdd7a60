@@ -17,10 +17,8 @@ $(function () {
         			$(".claim-box-wrap").each(function(index, claimBox) {
         				$(claimBox).find("h3").html(claims[index]);
         			});        			
-        			$(".claim-box-wrap").removeClass("is-flipped");
-            		$.getJSON("/claims/count", function(claimsCount) {
-                    $(".claimcount").html(claimsCount);
-            		});
+                $(".claim-box-wrap").removeClass("is-flipped");
+                $(".claimcount").html("1000");
                 doingAnimation=false;
         		});
         		

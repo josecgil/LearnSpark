@@ -3,3 +3,5 @@
 1447696125385	Move compilation unit
 1447696140372	Rename type 'Json2Transformer'
 1447696351558	Delete element
+1447697185284	Extract method 'create'
+1447697199300	Extract method 'count'

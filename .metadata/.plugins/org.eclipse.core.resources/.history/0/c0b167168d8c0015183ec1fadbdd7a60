@@ -14,6 +14,16 @@ public class ClaimsController {
         count();
 	}
 
+	private void count() {
+		get("/claims/count", "application/json", (request, response) -> {
+            ArrayList<String> claims = new ArrayList<String>();
+            claims.add("BALANCED");
+            claims.add("SYNERGIES");
+            claims.add("MODULAR");
+			return claims;
+        }, jsonTransformer);
+	}
+
 	private void create() {
 		get("/claims/create", "application/json", (request, response) -> {
             ArrayList<String> claims = new ArrayList<String>();
@@ -24,11 +34,4 @@ public class ClaimsController {
         }, jsonTransformer);
 	}
 
-	private void count() {
-		get("/claims/count", "application/json", (request, response) -> {
-			return 6;
-        }, jsonTransformer);
-	}
-
-	
 }
