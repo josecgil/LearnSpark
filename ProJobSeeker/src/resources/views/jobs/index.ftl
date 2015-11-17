@@ -2,9 +2,9 @@
 	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
 	<head>
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />	
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="css/master.css" type="text/css" />
-		<title>Job Listing - Pro Job Seeker</title>		
+		<title>Job Listing - Pro Job Seeker</title>
 	</head>
 	<body>
 		<div id="page">
@@ -13,94 +13,45 @@
 				<p>Industry leaders <strong>since 2006</strong>. The best companies use our system to find the <strong>best and brightest<strong> professionals.</p>
 			</div>
 			<div id="content">
-			
+
 				<div class="add-job">
 					<a href="addjob.html">
 					  Post a Job, 90 days for only 400&euro;
 					</a>
 				</div>
 
-				<div class="jobs">
-					<h2>
-						<a href="category.html">Programming</a> Jobs
-						<span>Latest post about 20 hours ago</span>
-					</h2>
-					<ul>
-						<#list jobs as job>
-							<li>
-							<#if job.isNew()>
-								<span class="new">New</span>
-							</#if>							  
-							  <a href="onejob.html">
-								<span class="city">${job.getLocation()}</span>
-								<span class="title">${job.getTitle()}</span> in
-								<span class="company">${job.getCompany()}</span>
-								<span class="date">${job.getShortDate()}</span>
-							  </a>
-							</li>
-						</#list>	
-					</ul>
-				</div><!--end div class="jobs" -->
-
-				<div class="jobs">
-					<h2>
-						<a href="category.html">Design</a> Jobs
-						<span>Latest post about 2 days ago</span>
-					</h2>
-					<ul>
-						<li>
-							<span class="new">New</span>
-   						    <a href="onejob.html">
-							<span class="city">San Francisco</span>
-							<span class="title">Freelance Designer</span> in
-							<span class="company">Funk S.A.</span>
-							<span class="date">Nov 4</span>
-						  </a>
-						</li>
-						<li>
-							<span class="new">New</span>
-						  <a href="onejob.html">
-							<span class="city">Moscow</span>
-							<span class="title">UI Designer</span> in
-							<span class="company">Soyuz Films</span>
-							<span class="date">Nov 3</span>
-						  </a>
-						</li>
-						<li>
-							<span class="new">New</span>
-						  <a href="onejob.html">
-								<span class="city">Barcelona</span>
-								<span class="title">CSS Ninja</span> in
-								<span class="company">lukiluk.com</span>
-								<span class="date">Nov 1</span>
-							 </a>
-						</li>
-						<li>
-						  <a href="onejob.html">
-							<span class="city">London</span>
-							<span class="title">UX Designer</span> in
-							<span class="company">Experts &amp; Co</span>
-							<span class="date">Oct 14</span>
-						  </a>
-						</li>
-						<li>
-						  <a href="onejob.html">
-							<span class="city">NY City</span>
-							<span class="title">UX Expert</span> in
-							<span class="company">bulltop.com</span>
-							<span class="date">Oct 10</span>
-						  </a>
-						</li>
-					</ul>
-				</div><!--end div class="jobs" -->
+				<#list jobsGroupedByCategory?keys as jobCategoryName>
+					<#assign jobs = jobsGroupedByCategory[jobCategoryName]>
+					<div class="views.jobs">
+						<h2>
+							<a href="category.html">${jobCategoryName}</a> Jobs
+							<span>Latest post about 20 hours ago</span>
+						</h2>
+						<ul>
+							<#list jobs as job>
+								<li>
+									<#if job.isNew()>
+										<span class="new">New</span>
+									</#if>
+									<a href="onejob.html">
+										<span class="city">${job.getLocation()}</span>
+										<span class="title">${job.getTitle()}</span> in
+										<span class="company">${job.getCompany()}</span>
+										<span class="date">${job.getDateFormat()}</span>
+									</a>
+								</li>
+							</#list>
+						</ul>
+					</div><!--end div class="views.jobs" -->
+				</#list>
 
 				<div style="clear:both" ></div>
 			</div> <!--end div id="content" -->
-			
+
 			<div id="footer">
 				<p>&copy; 2011 Job Listing Company International</p>
 			</div>
-			
+
 		</div>
 	</body>
 </html>

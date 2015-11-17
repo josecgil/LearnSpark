@@ -3,6 +3,7 @@ import static spark.Spark.*;
 import java.util.HashMap;
 import java.util.Map;
 
+import controller.JobsController;
 import freemarker.template.Configuration;
 import spark.ModelAndView;
 import spark.template.freemarker.FreeMarkerEngine;

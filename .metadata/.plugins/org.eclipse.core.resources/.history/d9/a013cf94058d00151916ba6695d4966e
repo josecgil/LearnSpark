@@ -1,0 +1,48 @@
+import static spark.Spark.get;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import spark.ModelAndView;
+import spark.template.freemarker.FreeMarkerEngine;
+
+public class JobsController {
+	
+	public JobsController(FreeMarkerEngine freeMarkerEngine) {
+		get("/jobs", (request, response) -> {
+            Map<String, Object> attributes = new HashMap<>();
+            ArrayList<String> categories = new ArrayList<String>();
+            categories.add("Programming");
+            categories.add("Design");
+            ArrayList<Job> jobs=new ArrayList<Job>();
+            Job aJob=new Job();
+            aJob.setCategoryName("Programming");
+            aJob.setCompany("Company");
+            aJob.setDescription("Description");
+            aJob.setLocation("location");
+            aJob.setTitle("title");
+            jobs.add(aJob);
+            Job aJob2=new Job();
+            aJob2.setCategoryName("Programming");
+            aJob2.setCompany("Company2");
+            aJob2.setDescription("Description2");
+            aJob2.setLocation("location2");
+            aJob2.setTitle("title2");
+            jobs.add(aJob2);
+            Job aJob3=new Job();
+            aJob3.setCategoryName("Design");
+            aJob3.setCompany("Company3");
+            aJob3.setDescription("Description3");
+            aJob3.setLocation("location3");
+            aJob3.setTitle("title3");
+            jobs.add(aJob3);
+            
+            attributes.put("jobs", jobs);
+            attributes.put("categories", categories);
+
+            return new ModelAndView(attributes, "views/jobs/index.ftl");
+        }, freeMarkerEngine);		
+	}
+
+}
