@@ -39,8 +39,8 @@
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="480" key="width"/>
-		<item value="786" key="x"/>
-		<item value="103" key="y"/>
+		<item value="320" key="x"/>
+		<item value="85" key="y"/>
 		<item value="489" key="height"/>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
@@ -56,6 +56,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Form"/>
 			<item value="08_SampleSPA"/>
 			<item value="ProJobSeeker"/>
 			<item value="HelloWorld"/>
@@ -65,6 +66,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Form"/>
 			<item value="08_SampleSPA"/>
 			<item value="ProJobSeeker"/>
 			<item value="HelloWorld"/>

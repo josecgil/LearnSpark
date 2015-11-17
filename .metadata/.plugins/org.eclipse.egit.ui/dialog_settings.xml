@@ -16,8 +16,8 @@
 		<item value="650" key="DIALOG_WIDTH"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<item value="440" key="DIALOG_HEIGHT"/>
-		<item value="515" key="DIALOG_X_ORIGIN"/>
-		<item value="219" key="DIALOG_Y_ORIGIN"/>
+		<item value="150" key="DIALOG_X_ORIGIN"/>
+		<item value="134" key="DIALOG_Y_ORIGIN"/>
 		<list key="sashWeights">
 			<item value="600"/>
 			<item value="400"/>
@@ -33,9 +33,9 @@
 	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
 		<item value="766" key="DIALOG_WIDTH"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
-		<item value="679" key="DIALOG_HEIGHT"/>
-		<item value="466" key="DIALOG_X_ORIGIN"/>
-		<item value="95" key="DIALOG_Y_ORIGIN"/>
+		<item value="574" key="DIALOG_HEIGHT"/>
+		<item value="34" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="GitCommitMessageComponent">
 	</section>

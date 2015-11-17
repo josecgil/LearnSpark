@@ -1,5 +1,7 @@
 import static spark.Spark.*;
 
+import controllers.ClaimsController;
+import controllers.JsonTransformer;
 import freemarker.template.Configuration;
 import spark.TemplateEngine;
 import spark.template.freemarker.FreeMarkerEngine;
@@ -20,8 +22,7 @@ public class App {
 	
 	private static void setDefaultRoute(String defaultRoute) {
 		get("/", (request, response) -> {
-			response.status(301);
-			response.redirect(defaultRoute);
+			response.redirect(defaultRoute, 301);
 			return "Redirecting to "+defaultRoute+" ...";
 		});
 	}
