@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.text.DateFormatSymbols"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
@@ -35,4 +34,7 @@
 <fullyQualifiedTypeName name="JsonTransformer"/>
 <fullyQualifiedTypeName name="controllers.ClaimsController"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ClaimsController"/>
+<fullyQualifiedTypeName name="ClaimsRepository"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

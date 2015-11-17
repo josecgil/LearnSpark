@@ -1,10 +1,7 @@
-
-
 import static spark.Spark.get;
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
 
 import spark.ModelAndView;
 import spark.TemplateEngine;

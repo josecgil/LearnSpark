@@ -10,15 +10,15 @@ public class ClaimsRepository {
 		claims.add("Heuristic");
 		claims.add("Balanced");
 		claims.add("Focused");
-		claims.add("COLLABORATIVE");
-		claims.add("CUTTING-EDGE");
-		claims.add("QUALITY-FOCUSED");
-		claims.add("FULL-RANGE");
-		claims.add("FLEXIBILITY");
-		claims.add("DYNAMIC");
-		claims.add("INTERACTIVE");
-		claims.add("EPIC");
-		claims.add("EFFICIENCY");
+		claims.add("Collaborative");
+		claims.add("Cutting-Edge");
+		claims.add("Quality-Focused");
+		claims.add("Full-Range");
+		claims.add("Flexible");
+		claims.add("Dynamic");
+		claims.add("Interactive");
+		claims.add("Epic");
+		claims.add("Efficient");
 	}
 	
 	private int numberOfRandomSelections=0;
