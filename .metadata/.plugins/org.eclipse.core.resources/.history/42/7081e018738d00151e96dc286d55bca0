@@ -1,0 +1,16 @@
+
+public class App {
+	
+	public static void main(String[] args) {
+
+		//Secure connection inside Spark + Jetty 
+		//https://wiki.eclipse.org/Jetty/Howto/Configure_SSL
+		//http://sparkjava.com/documentation.html#secure
+		
+		
+		
+		
+		
+	}
+
+}

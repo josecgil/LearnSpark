@@ -21,7 +21,6 @@
 <fullyQualifiedTypeName name="models.Job"/>
 <fullyQualifiedTypeName name="spark.TemplateEngine"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="models.CategoryCollection"/>
 <fullyQualifiedTypeName name="models.Category"/>
 <fullyQualifiedTypeName name="controllers.CategoriesController"/>
@@ -38,4 +37,5 @@
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="spark.Spark"/>
 <fullyQualifiedTypeName name="spark.ModelAndView"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
