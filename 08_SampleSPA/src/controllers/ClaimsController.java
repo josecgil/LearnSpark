@@ -3,6 +3,7 @@ import static spark.Spark.get;
 import java.util.HashMap;
 import java.util.Map;
 
+import adapters.ClaimsCounterRepository;
 import adapters.ClaimsRepository;
 import spark.ModelAndView;
 import spark.TemplateEngine;
@@ -13,6 +14,7 @@ public class ClaimsController {
 	private TemplateEngine templateEngine;
 	
 	private static ClaimsRepository claimsRepository=new ClaimsRepository();
+	private static ClaimsCounterRepository claimsCounterRepository=new ClaimsCounterRepository();
 
 	public ClaimsController(TemplateEngine templateEngine, JsonTransformer jsonTransformer) {
 		this.templateEngine=templateEngine;
@@ -25,8 +27,9 @@ public class ClaimsController {
 	private void index() {
 		get("/claims", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
-            attributes.put("numberOfClaimsSelected", claimsRepository.numberOfRandomSelections());
-            attributes.put("randomClaims", claimsRepository.selectRandom(3));
+			claimsCounterRepository.increment();
+            attributes.put("numberOfClaimsSelected", claimsCounterRepository.get());
+            attributes.put("randomClaims", claimsRepository.findAll().selectRandom(3));
             return new ModelAndView(attributes, "views/claims/index.ftl");
         }, templateEngine);
 	}
@@ -35,13 +38,14 @@ public class ClaimsController {
 		get("/claims/select/:count", "application/json", (request, response) -> {
 			String countParam = request.params(":count");
 			int count=Integer.parseInt(countParam);
-			return claimsRepository.selectRandom(count);
+			claimsCounterRepository.increment();
+			return claimsRepository.findAll().selectRandom(count);
         }, jsonTransformer);
 	}
 
 	private void count() {
 		get("/claims/count", "application/json", (request, response) -> {
-			return claimsRepository.numberOfRandomSelections();
+			return claimsCounterRepository.get();
         }, jsonTransformer);
 	}
 

@@ -18,3 +18,8 @@
 1447783831068	Move compilation unit
 1447783861399	Move compilation unit
 1447794433615	Copy compilation unit
+1447930365884	Copy file
+1447945874812	Rename field 'numberOfRandomSelections'
+1447945883245	Rename type 'CounterRepository'
+1447946093835	Rename method 'numberOfRandomSelections'
+1447946200400	Rename method 'getCount'

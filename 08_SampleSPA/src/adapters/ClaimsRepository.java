@@ -1,11 +1,10 @@
 package adapters;
-import java.util.ArrayList;
-import java.util.Random;
+
+import model.ClaimCollection;
 
 public class ClaimsRepository {
 
-	private ArrayList<String> claims=new ArrayList<String>();
-	private Random random=new Random();
+	private ClaimCollection claims=new ClaimCollection();
 
 	public ClaimsRepository() {
 		claims.add("Heuristic");
@@ -21,25 +20,10 @@ public class ClaimsRepository {
 		claims.add("Epic");
 		claims.add("Efficient");
 	}
-	
-	private int numberOfRandomSelections=0;
-	
-	public ArrayList<String> selectRandom(int count) {
-		numberOfRandomSelections++;
-		ArrayList<String> selectedClaims=new ArrayList<String>();
-		int numberOfClaims = claims.size();
-		while(selectedClaims.size()<3) {
-			int index=random.nextInt(numberOfClaims);
-			String claim=claims.get(index);
-			if (!selectedClaims.contains(claim)) {
-				selectedClaims.add(claim);
-			}
-		}
-		return selectedClaims;
+
+	public ClaimCollection findAll() {
+		return claims;
 	}
 
-	public int numberOfRandomSelections() {
-		return numberOfRandomSelections;
-	}
 
 }

@@ -1,0 +1,16 @@
+package model;
+
+import java.util.ArrayList;
+
+public class ClaimCollection {
+	private ArrayList<String> claims=new ArrayList<String>();
+	public ClaimCollection(ArrayList<String> claims) {
+		this.claims=claims;
+	}
+	
+	public ArrayList<String> selectRandom(int count) {
+		
+	}
+	
+	
+}
