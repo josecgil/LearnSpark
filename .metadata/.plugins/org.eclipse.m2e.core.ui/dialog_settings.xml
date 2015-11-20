@@ -56,6 +56,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Claims"/>
 			<item value="09_Login"/>
 			<item value="Form"/>
 			<item value="08_SampleSPA"/>
@@ -67,6 +68,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Claims"/>
 			<item value="09_Login"/>
 			<item value="Form"/>
 			<item value="08_SampleSPA"/>

@@ -9,6 +9,13 @@
 	<list key="CommitDialog.committerValues">
 		<item value="José Carlos Gil Zambrana &lt;josecgil@gmail.com&gt;"/>
 	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+		<item value="728" key="DIALOG_HEIGHT"/>
+		<item value="378" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="GitImportWizard">
 		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
 	</section>
@@ -34,7 +41,7 @@
 		<item value="766" key="DIALOG_WIDTH"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<item value="574" key="DIALOG_HEIGHT"/>
-		<item value="383" key="DIALOG_X_ORIGIN"/>
+		<item value="552" key="DIALOG_X_ORIGIN"/>
 		<item value="140" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="GitCommitMessageComponent">

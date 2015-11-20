@@ -8950,3 +8950,263 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 
 !ENTRY org.infinitest.eclipse 1 0 2015-11-19 16:30:19.642
 !MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/adapters/ClaimsRepository.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/controllers/ClaimsController.class]
+!SESSION 2015-11-20 07:33:55.255 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:36:00.680
+!MESSAGE Beans loaded: [org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalRequiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, infinitestConfig, org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor, resultCollectorBean, coreLifecycleObserver, classFileChangeProcessor, cleanEventProcessor, coreUpdateNotifier, saveDetector, failureMediator, infinitestActivationController, markerClearingRunnable, markerClearingObserver, markerPlacer, problemMarkerRegistry, resourceLookupAdapter, slowMarkerRegistry, preferenceChangeHandler, slowTestObserver, swtEventQueue, testResultAggregator, visualStatusPresenter, coreFactory, eclipseWorkspace, infinitestCoreRegistry, javaProjectSet, workspaceResourceFinder, workspace, sourceContainer]
+
+!ENTRY org.eclipse.ui 2 2 2015-11-20 07:36:09.497
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-11-20 07:36:09.526
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.osgi 2 0 2015-11-20 07:36:32.005
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-11,5,main]" timed out waiting (5002ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [549]". To avoid deadlock, thread "Thread[Worker-11,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=549] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.createExternalArchiveDelta(DeltaProcessor.java:933)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.checkExternalArchiveChanges(DeltaProcessor.java:804)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2003)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:368)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1592)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.refreshRemoteEditProject(SystemRemoteEditManager.java:794)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2015-11-20 07:36:37.093
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers", thread "Thread[Worker-11,5,main]" timed out waiting (5001ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [549]". To avoid deadlock, thread "Thread[Worker-11,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=549] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.createExternalArchiveDelta(DeltaProcessor.java:933)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.checkExternalArchiveChanges(DeltaProcessor.java:804)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2003)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:368)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1592)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.refreshRemoteEditProject(SystemRemoteEditManager.java:794)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2015-11-20 07:36:37.794
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.createExternalArchiveDelta(DeltaProcessor.java:933)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.checkExternalArchiveChanges(DeltaProcessor.java:804)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2003)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:368)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1592)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.refreshRemoteEditProject(SystemRemoteEditManager.java:794)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:49.559
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:49.565
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:51.053
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:51.060
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:51.441
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:51.446
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:51.753
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:51.760
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:52.027
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:52.029
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:52.368
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:52.372
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:52.795
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:52.802
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:53.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:53.226
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:53.622
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:53.624
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:54.082
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:36:54.084
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:40:34.295
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:40:34.297
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.499
+!MESSAGE Filter file /Users/user/Desktop/BTS/LearnSpark/01_HelloWorld/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.664
+!MESSAGE Reloading core 01_HelloWorld
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.673
+!MESSAGE Added core 01_HelloWorld with classpath /Users/user/Desktop/BTS/LearnSpark/01_HelloWorld/target/classes:/Users/user/.m2/repository/com/sparkjava/spark-core/2.3/spark-core-2.3.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/user/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-server/9.3.2.v20150730/jetty-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-http/9.3.2.v20150730/jetty-http-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-util/9.3.2.v20150730/jetty-util-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-io/9.3.2.v20150730/jetty-io-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.2.v20150730/jetty-webapp-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.2.v20150730/jetty-xml-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.2.v20150730/jetty-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-security/9.3.2.v20150730/jetty-security-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.3.2.v20150730/websocket-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.3.2.v20150730/websocket-common-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.3.2.v20150730/websocket-client-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.3.2.v20150730/websocket-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.3.2.v20150730/websocket-api-9.3.2.v20150730.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest320662765.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.675
+!MESSAGE 01_HelloWorld Files changed: [/Users/user/Desktop/BTS/LearnSpark/01_HelloWorld/target/classes/App.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.978
+!MESSAGE Filter file /Users/user/Desktop/BTS/LearnSpark/04_Views/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.980
+!MESSAGE Reloading core 04_Views
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.982
+!MESSAGE Added core 04_Views with classpath /Users/user/Desktop/BTS/LearnSpark/04_Views/target/classes:/Users/user/.m2/repository/com/sparkjava/spark-core/2.3/spark-core-2.3.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/user/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-server/9.3.2.v20150730/jetty-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-http/9.3.2.v20150730/jetty-http-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-util/9.3.2.v20150730/jetty-util-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-io/9.3.2.v20150730/jetty-io-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.2.v20150730/jetty-webapp-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.2.v20150730/jetty-xml-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.2.v20150730/jetty-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-security/9.3.2.v20150730/jetty-security-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.3.2.v20150730/websocket-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.3.2.v20150730/websocket-common-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.3.2.v20150730/websocket-client-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.3.2.v20150730/websocket-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.3.2.v20150730/websocket-api-9.3.2.v20150730.jar:/Users/user/.m2/repository/com/sparkjava/spark-template-freemarker/2.3/spark-template-freemarker-2.3.jar:/Users/user/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest320662765.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:34.983
+!MESSAGE 04_Views Files changed: [/Users/user/Desktop/BTS/LearnSpark/04_Views/target/classes/App.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.115
+!MESSAGE Filter file /Users/user/Desktop/BTS/LearnSpark/06_JSON/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.116
+!MESSAGE Reloading core 06_JSON
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.117
+!MESSAGE Added core 06_JSON with classpath /Users/user/Desktop/BTS/LearnSpark/06_JSON/target/classes:/Users/user/.m2/repository/com/sparkjava/spark-core/2.3/spark-core-2.3.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/user/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-server/9.3.2.v20150730/jetty-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-http/9.3.2.v20150730/jetty-http-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-util/9.3.2.v20150730/jetty-util-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-io/9.3.2.v20150730/jetty-io-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.2.v20150730/jetty-webapp-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.2.v20150730/jetty-xml-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.2.v20150730/jetty-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-security/9.3.2.v20150730/jetty-security-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.3.2.v20150730/websocket-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.3.2.v20150730/websocket-common-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.3.2.v20150730/websocket-client-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.3.2.v20150730/websocket-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.3.2.v20150730/websocket-api-9.3.2.v20150730.jar:/Users/user/.m2/repository/com/google/code/gson/gson/2.4/gson-2.4.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest320662765.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.118
+!MESSAGE 06_JSON Files changed: [/Users/user/Desktop/BTS/LearnSpark/06_JSON/target/classes/Client.class, /Users/user/Desktop/BTS/LearnSpark/06_JSON/target/classes/App.class, /Users/user/Desktop/BTS/LearnSpark/06_JSON/target/classes/JsonTransformer.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.209
+!MESSAGE Filter file /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.212
+!MESSAGE Reloading core 08_SampleSPA
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.213
+!MESSAGE Added core 08_SampleSPA with classpath /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes:/Users/user/.m2/repository/com/sparkjava/spark-core/2.3/spark-core-2.3.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/user/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-server/9.3.2.v20150730/jetty-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-http/9.3.2.v20150730/jetty-http-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-util/9.3.2.v20150730/jetty-util-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-io/9.3.2.v20150730/jetty-io-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.2.v20150730/jetty-webapp-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.2.v20150730/jetty-xml-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.2.v20150730/jetty-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/jetty-security/9.3.2.v20150730/jetty-security-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.3.2.v20150730/websocket-server-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.3.2.v20150730/websocket-common-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.3.2.v20150730/websocket-client-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.3.2.v20150730/websocket-servlet-9.3.2.v20150730.jar:/Users/user/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.3.2.v20150730/websocket-api-9.3.2.v20150730.jar:/Users/user/.m2/repository/com/google/code/gson/gson/2.4/gson-2.4.jar:/Users/user/.m2/repository/com/sparkjava/spark-template-freemarker/2.3/spark-template-freemarker-2.3.jar:/Users/user/.m2/repository/org/freemarker/freemarker/2.3.19/freemarker-2.3.19.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest320662765.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:40:35.215
+!MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/adapters/ClaimsRepository.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/model/ClaimsResult.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/controllers/JsonTransformer.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/controllers/ClaimsController.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/model/ClaimCollection.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/adapters/ClaimsCounterRepository.class, /Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/App.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:41:52.765
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:41:52.767
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:41:52.831
+!MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/model/ClaimsResult.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:47:16.241
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-20 07:47:16.243
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-20 07:47:16.309
+!MESSAGE 08_SampleSPA Files changed: [/Users/user/Desktop/BTS/LearnSpark/08_SampleSPA/target/classes/controllers/ClaimsController.class]
