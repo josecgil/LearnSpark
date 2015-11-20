@@ -1,2 +1,4 @@
 1447933448375	Rename resource 'index.html'
 1447933518642	Move file
+1448011688018	Extract method 'generateOneRandomWord'
+1448013813679	Extract method 'createParam'

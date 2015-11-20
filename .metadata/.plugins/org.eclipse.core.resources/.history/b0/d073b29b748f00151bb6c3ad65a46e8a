@@ -1,0 +1,17 @@
+package controllers;
+
+import static spark.Spark.get;
+
+import spark.ModelAndView;
+import spark.template.freemarker.FreeMarkerEngine;
+
+public class WordsController {
+
+	public WordsController (FreeMarkerEngine freeMarkerEngine) {
+		get("/words", (request, response) ->{
+			
+			return new ModelAndView(null, "/views/words/index.ftl");
+		}, freeMarkerEngine);
+	}
+	
+}

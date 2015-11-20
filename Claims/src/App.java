@@ -1,5 +1,6 @@
 import static spark.Spark.*;
 
+import controllers.WordsController;
 import freemarker.template.Configuration;
 import spark.ModelAndView;
 import spark.template.freemarker.FreeMarkerEngine;
@@ -19,10 +20,8 @@ public class App {
 			return "Redirecting to /words...";
 		});
 		
-		get("/words", (request, response) ->{
-			
-			return new ModelAndView(null, "/views/words/index.ftl");
-		}, freeMarkerEngine);
+		WordsController wordsController=new WordsController(freeMarkerEngine);
+		
 	}
 	
 	private static FreeMarkerEngine createTemplateEngine() {
