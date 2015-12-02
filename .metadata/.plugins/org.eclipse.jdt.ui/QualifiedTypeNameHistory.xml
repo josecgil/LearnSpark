@@ -24,19 +24,22 @@
 <fullyQualifiedTypeName name="models.CategoryCollection"/>
 <fullyQualifiedTypeName name="models.Category"/>
 <fullyQualifiedTypeName name="controllers.CategoriesController"/>
-<fullyQualifiedTypeName name="spark.template.freemarker.FreeMarkerEngine"/>
 <fullyQualifiedTypeName name="JsonTransformer"/>
-<fullyQualifiedTypeName name="controllers.ClaimsController"/>
 <fullyQualifiedTypeName name="ClaimsController"/>
 <fullyQualifiedTypeName name="ClaimsRepository"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="controller.JobsController"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="spark.Spark"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="spark.ModelAndView"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="model.ClaimCollection"/>
+<fullyQualifiedTypeName name="controllers.ClaimsController"/>
+<fullyQualifiedTypeName name="model.ClaimsResult"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="spark.template.freemarker.FreeMarkerEngine"/>
+<fullyQualifiedTypeName name="controllers.WordsController"/>
+<fullyQualifiedTypeName name="adapters.WordsRepository"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

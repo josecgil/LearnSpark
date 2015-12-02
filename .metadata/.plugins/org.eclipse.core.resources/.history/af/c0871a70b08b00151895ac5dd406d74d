@@ -1,9 +1,0 @@
-package models;
-
-public class CategoryCollection {
-	public static final Category OTHER = new Category("Other");
-	public static final Category EXECUTIVE = new Category("Executive");
-	public static final Category PROGRAMMING = new Category("Programming");
-	public static final Category CATEGORY_DESIGN = new Category("Design");
-
-}

@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>Simple Contact Form</title>
+</head>
+<body>
+	<h1>Simple Contact Form</h1>
+	<p>Name</p>
+	<input type="input" />
+	<p>Email</p>
+	<input type="input" />
+	<p>Message</p>
+	<textarea></textarea>
+	<button>Submit</button>
+</body>
+</html>

@@ -1,0 +1,31 @@
+package controller;
+
+import infrastructure.AlertRepository;
+import spark.ModelAndView;
+import spark.template.freemarker.FreeMarkerEngine;
+
+import java.util.HashMap;
+
+import static spark.Spark.get;
+
+
+/**
+ * Created by susannamaier on 23.11.15.
+ */
+public class AlertController {
+
+    public AlertController(FreeMarkerEngine freeMarkerEngine){ // constructor
+        get("/alerts", (request, response) -> {
+            AlertRepository alertRepository = new AlertRepository();
+
+            return new ModelAndView(createParams("alertRepository", alertRepository), "/views/alerts/index.ftl");
+        }, freeMarkerEngine);
+    }
+
+    private HashMap<String, Object> createParams(String paramName, Object object) {
+        HashMap<String, Object> params = new HashMap<String, Object>();
+        params.put(paramName, object);
+        return params; // this is a standard controller thing
+    }
+
+}

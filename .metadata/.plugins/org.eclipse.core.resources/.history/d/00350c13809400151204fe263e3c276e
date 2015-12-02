@@ -1,0 +1,48 @@
+import controller.AlertController;
+import freemarker.template.Configuration;
+import spark.template.freemarker.FreeMarkerEngine;
+
+import static spark.Spark.staticFileLocation;
+
+/**
+ * Created by susannamaier on 23.11.15.
+ */
+public class App {
+
+    private static final String RESOURCES_PATH = "/resources";
+
+
+    public static void main(String[] args ) {
+        FreeMarkerEngine freemarkerEngine = createTemplateEngine();
+
+        staticFileLocation(RESOURCES_PATH);
+
+        AlertController alertController = new AlertController(freemarkerEngine);
+
+      }
+
+    /*
+    private static void setDefaultRoute(String defaultRoute){
+        get("/", (request,response) -> { // get is the method and inside are the parameters
+
+            response.redirect(defaultRoute, 301);
+            return "Redirecting to "+defaultRoute+"...";
+        });
+
+
+    }
+    */
+
+
+    private static FreeMarkerEngine createTemplateEngine() {
+        FreeMarkerEngine freeMarkerEngine = new FreeMarkerEngine();
+        Configuration configuration = new Configuration();
+        configuration.setClassForTemplateLoading(App.class, RESOURCES_PATH); // why isnt it working
+        freeMarkerEngine.setConfiguration(configuration); // what?
+        return freeMarkerEngine;
+
+
+    }
+
+
+}

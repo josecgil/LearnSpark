@@ -1,0 +1,27 @@
+import static spark.Spark.*;
+import freemarker.template.Configuration;
+import spark.TemplateEngine;
+import spark.template.freemarker.FreeMarkerEngine;
+
+import freemarker.template.Configuration;
+
+
+public class App {
+
+	public static void main(String[] args) {
+		staticFileLocation("/resources");
+		
+		FreeMarkerEngine freeMarkerEngine = new FreeMarkerEngine();
+        Configuration configuration = new Configuration();
+        configuration.setClassForTemplateLoading(App.class, "/resources");
+		freeMarkerEngine.setConfiguration(configuration);
+
+		
+		
+		get("/contacts/create", (request, response)-> {
+			return ModelView(null, "view");
+		}, freeMarkerEngine);
+
+	}
+
+}

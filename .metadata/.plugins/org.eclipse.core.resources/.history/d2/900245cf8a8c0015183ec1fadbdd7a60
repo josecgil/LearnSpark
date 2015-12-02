@@ -1,8 +1,0 @@
-
-public class Claim {
-
-	public Claim(String string) {
-		this.value
-	}
-
-}
