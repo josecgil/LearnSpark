@@ -2,9 +2,14 @@ package controllers;
 
 import static spark.Spark.*;
 
+import adapters.ContactRepository;
+import models.Contact;
+import spark.Request;
 import spark.template.freemarker.FreeMarkerEngine;
 
 public class ContactsController {
+
+	private ContactRepository contactRepository = new ContactRepository();
 
 	public ContactsController(FreeMarkerEngine freeMarkerEngine) {
 		get("/contacts/create", (request, response)-> {
@@ -12,12 +17,17 @@ public class ContactsController {
 		}, freeMarkerEngine);		
 		
 		post("/contacts/create", (request, response)-> {
-			//Store contact
 			
-			response.redirect("/contacts/thankyou/", 301);
+			String name=request.queryParams("name");
+			String email=request.queryParams("email");
+			String message=request.queryParams("message");
+
+			Contact newContact=contactRepository.save(new Contact(name, email, message));
+
+			response.redirect("/contacts/thankyou/"+newContact.getId(), 301);
 			return "";
 		});		
 
 	}
-	
+
 }

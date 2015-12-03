@@ -1,0 +1,15 @@
+package adapters;
+
+import java.util.ArrayList;
+
+import models.Contact;
+
+public class ContactRepository {
+
+	private ArrayList<Contact> contacts=new ArrayList<Contact>();
+	
+	public void save(Contact newContact) {
+		contacts.add(newContact);
+	}
+
+}

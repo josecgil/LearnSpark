@@ -31,15 +31,16 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="spark.Spark"/>
 <fullyQualifiedTypeName name="spark.ModelAndView"/>
 <fullyQualifiedTypeName name="model.ClaimCollection"/>
 <fullyQualifiedTypeName name="controllers.ClaimsController"/>
 <fullyQualifiedTypeName name="model.ClaimsResult"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="spark.template.freemarker.FreeMarkerEngine"/>
 <fullyQualifiedTypeName name="controllers.WordsController"/>
 <fullyQualifiedTypeName name="adapters.WordsRepository"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="spark.Spark"/>
+<fullyQualifiedTypeName name="spark.template.freemarker.FreeMarkerEngine"/>
+<fullyQualifiedTypeName name="controllers.ContactsController"/>
 </qualifiedTypeNameHistroy>

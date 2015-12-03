@@ -1,0 +1,18 @@
+package adapters;
+
+import java.util.ArrayList;
+
+import models.Contact;
+
+public class ContactRepository {
+	private static int newGeneratedId=0;
+	
+	private ArrayList<Contact> contacts=new ArrayList<Contact>();
+	
+	public void save(Contact newContact) {
+		newGeneratedId++;
+		newContact.setId(newGeneratedId);
+		contacts.add(newContact);
+	}
+
+}

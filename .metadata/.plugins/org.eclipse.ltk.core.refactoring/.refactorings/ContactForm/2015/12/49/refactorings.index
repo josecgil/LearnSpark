@@ -1,3 +1,10 @@
 1448983143295	Delete element
 1448985936524	Rename resource 'contact_form.html'
 1448987019425	Extract method 'initFreeMarkerEngine'
+1449155889968	Rename local variable 'newContact'
+1449156000647	Rename local variable 'c'
+1449156462150	Extract method 'createContactFromRequestParams'
+1449157300329	Rename method 'createContactFromRequestParams'
+1449157816271	Inline local variable 'newContact'
+1449158021195	Convert local variable 'contactRepository' to field
+1449159916185	Rename field 'counter'

@@ -1,0 +1,45 @@
+package controllers;
+
+import static spark.Spark.*;
+
+import adapters.ContactRepository;
+import models.Contact;
+import spark.Request;
+import spark.template.freemarker.FreeMarkerEngine;
+
+public class ContactsController {
+
+	public ContactsController(FreeMarkerEngine freeMarkerEngine) {
+		get("/contacts/create", (request, response)-> {
+			return modelAndView(null, "contact_form.ftl");
+		}, freeMarkerEngine);		
+		
+		post("/contacts/create", (request, response)-> {
+			
+			String name=request.queryParams("name");
+			String email=request.queryParams("email");
+			String message=request.queryParams("message");
+
+			Contact newContact = createContact(name, email, message);
+			
+			//Store contact in Repo
+			ContactRepository contactRepository=new ContactRepository();
+			contactRepository.save(newContact);
+
+			response.redirect("/contacts/thankyou/", 301);
+			return "";
+		});		
+
+	}
+
+	private Contact createContact(String name, String email, String message) {
+		
+		//Create newContact
+		Contact newContact=new Contact();
+		newContact.setName(name);
+		newContact.setEmail(email);
+		newContact.setMessage(message);
+		return newContact;
+	}
+	
+}
