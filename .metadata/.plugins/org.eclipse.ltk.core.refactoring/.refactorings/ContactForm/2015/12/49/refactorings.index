@@ -8,3 +8,5 @@
 1449157816271	Inline local variable 'newContact'
 1449158021195	Convert local variable 'contactRepository' to field
 1449159916185	Rename field 'counter'
+1449217263976	Rename resource 'thankyou.html'
+1449217292348	Rename resource 'thankyou.ftl'

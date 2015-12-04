@@ -2,6 +2,8 @@ package controllers;
 
 import static spark.Spark.*;
 
+import java.util.HashMap;
+
 import adapters.ContactRepository;
 import models.Contact;
 import spark.Request;
@@ -27,6 +29,15 @@ public class ContactsController {
 			response.redirect("/contacts/thankyou/"+newContact.getId(), 301);
 			return "";
 		});		
+
+		get("/contacts/thankyou/:id", (request, response)-> {
+			String paramId=request.params("id");
+			int id=Integer.parseInt(paramId);
+			Contact contact=contactRepository.findById(id);
+			HashMap<String, Contact> model=new HashMap<String, Contact>();
+			model.put("contact", contact);
+			return modelAndView(model, "thank_you.ftl");
+		}, freeMarkerEngine);		
 
 	}
 

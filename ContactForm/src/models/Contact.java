@@ -17,8 +17,17 @@ public class Contact {
 		return this.id;
 	}
 
+	public String getIdAsString() {
+		return Integer.toString(this.id);
+	}
+
+	
 	public void setId(int newId) {
 		this.id=newId;
+	}
+
+	public String getName() {
+		return this.name;
 	}
 
 	public void setName(String newName) {

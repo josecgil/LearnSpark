@@ -16,4 +16,11 @@ public class ContactRepository {
 		return newContact;
 	}
 
+	public Contact findById(int id) {
+		for(Contact contact:contacts) {
+			if (contact.getId()==id) return contact;
+		}
+		return null;
+	}
+
 }
